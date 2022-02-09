@@ -23,7 +23,7 @@ Serve central stores and keep user's information while maintianing location base
 Title: Rake Leaves
 Description / Steps:
 
-On Friday mornign the volunteers must arrive at the destined location 15 minutes before the start time. The volunteers split in twio groups. The first group goes to the back yard. The second group goes the front yard. Each group rakes the fallen leaves. The each group baggs the leaves. The bagged leaves are then tossed.
+On Friday morning the volunteers must arrive at the destined location 15 minutes before the start time. The volunteers split in twio groups. The first group goes to the back yard. The second group goes the front yard. Each group rakes the fallen leaves. The each group baggs the leaves. The bagged leaves are then tossed.
 
 Primary Actor: Volunteers
 Preconditions: It is friday
@@ -31,12 +31,17 @@ Preconditions: It is friday
 Postconditions: There are leaves on in the yards.
 
 | Use Case #2 | |
-|---|---|
-| Title | |
-| Description / Steps | |
-| Primary Actor | |
-| Preconditions | |
-| Postconditions | |
+
+Title: System sign up
+Description / Steps:
+
+User with their personal devide must in their homes. The user will search for "help.org". Once the user has accessed the site. The site will prompt user to create an account. The user will click on the option and follow the step to creat and account. The user will put personal information within the system. Once the user is done they will submit their information. The system will store the user's information for future use.
+
+Primary Actor: The system
+
+Preconditions: The user with their own device
+
+Postconditions: "Help.org" needs a users information to operate
 
 ## Step 2.2 Define the MVC Components
 
