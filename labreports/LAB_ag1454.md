@@ -1,38 +1,43 @@
-# Lab Report: Continuous Integration
+# Lab Report: Architecture
 ___
 **Course:** CIS 411, Spring 2021  
 **Instructor(s):** [Trevor Bunch](https://github.com/trevordbunch)  
-**Name:** Your Name  
-**GitHub Handle:** Your GitHub Handle  
-**Repository:** Your Forked Repository  
-**Collaborators:** 
+**Name:** Abigail Garrido  
+**GitHub Handle:** ag1454  
+**Repository:** https://github.com/ag1454/cis411_lab2_arch  
+**Collaborators:** n/a (#madscientistlife...I did have my dad (Randy) help me with this, though)
 ___
 
 # Step 1: Confirm Lab Setup
-- [ ] I have forked the repository and created my lab report
-- [ ] I have reviewed the [lecture / discsussion](../assets/04p1_SolutionArchitectures.pdf) on architecture patterns.
-- [ ] If I'm collaborating on this project, I have included their handles on the report and confirm that my report is informed, but not copied from my collaborators.
+- [**X**] I have forked the repository and created my lab report
+- [**X**] I have reviewed the [lecture / discsussion](../assets/04p1_SolutionArchitectures.pdf) on architecture patterns.
+- [**X**] If I'm collaborating on this project, I have included their handles on the report and confirm that my report is informed, but not copied from my collaborators.
 
 # Step 2: Analyze the Proposal
 Serve Central ... ENTER A BASIC SYSTEM INTRODUCTION HERE (1-2 Sentences).
 
+*Serve Central is a system that allows for users to see all volunteering opportunities within a certain area and register for them in one simple application. The app also tracks user statistics for organizations.*
+
 ## Step 2.1 Representative Use Cases  
 
-| Use Case #1 | |
+| **Use Case #1** | |
 |---|---|
-| Title | |
-| Description / Steps | |
-| Primary Actor | |
-| Preconditions | |
-| Postconditions | |
+| **Title** | Volunteer Submits Application |
+| **Description** | This use case describes how a volunteer applies for a volunteering opportunity. |
+| **Steps** | 1. Volunteer finds a volunteer opportunity of interest.
+2. Volunteer fills out the application form for the volunteer opportunity and submits it once complete. |
+| **Primary Actor** | Volunteer |
+| **Preconditions** | 1. Volunteer has a Serve Central account and is logged in. |
+| **Postconditions** | 1. Service agency receives application from volunteer for review. |
 
-| Use Case #2 | |
+| **Use Case #2** | |
 |---|---|
-| Title | |
-| Description / Steps | |
-| Primary Actor | |
-| Preconditions | |
-| Postconditions | |
+| **Title** | |
+| **Description** | |
+| **Steps** | |
+| **Primary Actor** | |
+| **Preconditions** | |
+| **Postconditions** | |
 
 ## Step 2.2 Define the MVC Components
 
