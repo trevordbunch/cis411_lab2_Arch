@@ -24,8 +24,7 @@ Serve Central ... ENTER A BASIC SYSTEM INTRODUCTION HERE (1-2 Sentences).
 |---|---|
 | **Title** | Volunteer Submits Application |
 | **Description** | This use case describes how a volunteer applies for a volunteering opportunity. |
-| **Steps** | 1. Volunteer finds a volunteer opportunity of interest.
-2. Volunteer fills out the application form for the volunteer opportunity and submits it once complete. |
+| **Steps** | 1. Volunteer finds a volunteer opportunity of interest. 2. Volunteer fills out the application form for the volunteer opportunity and submits it once complete. |
 | **Primary Actor** | Volunteer |
 | **Preconditions** | 1. Volunteer has a Serve Central account and is logged in. |
 | **Postconditions** | 1. Service agency receives application from volunteer for review. |
