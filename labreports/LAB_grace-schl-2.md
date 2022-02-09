@@ -2,9 +2,9 @@
 ___
 **Course:** CIS 411, Spring 2021  
 **Instructor(s):** [Trevor Bunch](https://github.com/trevordbunch)  
-**Name:** Your Name  
-**GitHub Handle:** Your GitHub Handle  
-**Repository:** Your Forked Repository  
+**Name:** Grace Schlauder  
+**GitHub Handle:** grace-schl  
+**Repository:** [My Forked Repository](https://github.com/grace-schl/cis411_lab2_arch)  
 **Collaborators:** 
 ___
 
