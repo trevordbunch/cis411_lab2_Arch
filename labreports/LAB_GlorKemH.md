@@ -19,12 +19,16 @@ Serve central stores and keep user's information while maintianing location base
 ## Step 2.1 Representative Use Cases  
 
 | Use Case #1 | |
-|---|---|
-| Title | |
-| Description / Steps | |
-| Primary Actor | |
-| Preconditions | |
-| Postconditions | |
+
+Title: Rake Leaves
+Description / Steps:
+
+On Friday mornign the volunteers must arrive at the destined location 15 minutes before the start time. The volunteers split in twio groups. The first group goes to the back yard. The second group goes the front yard. Each group rakes the fallen leaves. The each group baggs the leaves. The bagged leaves are then tossed.
+
+Primary Actor: Volunteers
+Preconditions: It is friday
+
+Postconditions: There are leaves on in the yards.
 
 | Use Case #2 | |
 |---|---|
