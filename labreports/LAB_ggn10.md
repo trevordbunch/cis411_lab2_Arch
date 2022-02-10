@@ -2,19 +2,18 @@
 ___
 **Course:** CIS 411, Spring 2021  
 **Instructor(s):** [Trevor Bunch](https://github.com/trevordbunch)  
-**Name:** Your Name  
-**GitHub Handle:** Your GitHub Handle  
-**Repository:** Your Forked Repository  
-**Collaborators:** 
+**Name:** Garrett Nissley  
+**GitHub Handle:** ggn10  
+**Repository:** [ggn10/cis411  ](https://github.com/ggn10/cis411_lab2_arch) 
+**Collaborators:** N/A
 ___
 
 # Step 1: Confirm Lab Setup
-- [ ] I have forked the repository and created my lab report
-- [ ] I have reviewed the [lecture / discsussion](../assets/04p1_SolutionArchitectures.pdf) on architecture patterns.
-- [ ] If I'm collaborating on this project, I have included their handles on the report and confirm that my report is informed, but not copied from my collaborators.
+- [x] I have forked the repository and created my lab report
+- [x] I have reviewed the [lecture / discussion](../assets/04p1_SolutionArchitectures.pdf) on architecture patterns.
 
 # Step 2: Analyze the Proposal
-Serve Central ... ENTER A BASIC SYSTEM INTRODUCTION HERE (1-2 Sentences).
+Serve Central offers a software solution to the problem of the decline of volunteer service in the United States. It allows aspiring volunteers to have all of the volunteer registration and event information in one simple application.
 
 ## Step 2.1 Representative Use Cases  
 
