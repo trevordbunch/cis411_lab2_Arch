@@ -22,17 +22,18 @@ Serve Central offers a software solution to the problem of the decline of volunt
 | Title | Register for Volunteer Event |
 | Description | This use case describes how a user would register for a volunteer event. |
 | Primary Actor | Volunteer User |
-| Preconditions |  1. User is authenticated 2. Registration application is available and online |
+| Preconditions |  1. User is authenticated as normal user 2. Registration application is available and online |
 | Steps | 1. User opens the application 2. User selects 'Register for Event' button 3. User verifies their personal information 4. System stores their user and event information 5. System notifies the user their registration status |
 | Postconditions | 1. New registration is created and stored in database 2. Volunteer event capacity updated |
 
 | Use Case #2 | |
 |---|---|
-| Title | |
-| Description / Steps | |
-| Primary Actor | |
-| Preconditions | |
-| Postconditions | |
+| Title | Create Volunteer Event |
+| Description | This use case describes how a event manager would create a volunteer event. |
+| Primary Actor | Event Manager User |
+| Preconditions | 1. User is authenticated as Event Manager user 2. Event creation application is available and online |
+| Steps | 1. User opens the application 2. User selects 'Create Volunteer Event' Button 3. User provides all required information to create volunteer event. 3. System stores event information 4. System notifies user the status of their created event |
+| Postconditions | 1. New volunteer event is created and stored in database 2. New volunteer event is made available for registration  |
 
 ## Step 2.2 Define the MVC Components
 
