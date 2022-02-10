@@ -39,10 +39,10 @@ Serve Central offers a software solution to the problem of the decline of volunt
 
 | Model | View | Controller |
 |---|---|---|
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
+| Event Registration Data | Event Information Page | Registration.js |
+| Event Data | Create Event Page | eventCreation.js  |
+| User Data | User Sign-Up Page | createUser.js |
+| User Data | User login Page | getUser.js |
 
 ## Step 2.3 Diagram a Use Case in Architectural Terms
 INSERT IMAGE HERE with a Description.
