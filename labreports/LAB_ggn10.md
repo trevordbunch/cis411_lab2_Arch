@@ -45,7 +45,7 @@ Serve Central offers a software solution to the problem of the decline of volunt
 | User Data from Firebase | User login Page | getUser.js |
 
 ## Step 2.3 Diagram a Use Case in Architectural Terms
-[!Use Case Diagram ](/assets/UseCaseDiagram.png) 
+![Use Case Diagram ](/assets/UseCaseDiagram.png) 
 
 # Step 3: Enhancing an Architecture
 
