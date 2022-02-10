@@ -20,9 +20,17 @@ Serve Central offers a software solution to the problem of the decline of volunt
 | Use Case #1 | |
 |---|---|
 | Title | Register for Volunteer Event |
-| Description / Steps | This use case describes how a user would register for a volunteer event.|
+| Description | This use case describes how a user would register for a volunteer event.|
 | Primary Actor | Volunteer User |
-| Preconditions | 1. User is authenticated 2. Registration application is available and online |
+| Preconditions  
+1. User is authenticated
+2. Registration application is available and online |
+| Steps
+1. User opens the application
+2. User selects 'Register for Event' button
+3. User verifies their personal information
+4. System stores their user and event information
+5. System notifies the user their registration status |
 | Postconditions | |
 
 | Use Case #2 | |
