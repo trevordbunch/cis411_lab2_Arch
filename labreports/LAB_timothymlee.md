@@ -10,29 +10,31 @@ ___
 
 # Step 1: Confirm Lab Setup
 - [x] I have forked the repository and created my lab report
-- [ ] I have reviewed the [lecture / discsussion](../assets/04p1_SolutionArchitectures.pdf) on architecture patterns.
-- [ ] If I'm collaborating on this project, I have included their handles on the report and confirm that my report is informed, but not copied from my collaborators.
+- [x] I have reviewed the [lecture / discsussion](../assets/04p1_SolutionArchitectures.pdf) on architecture patterns.
+- [x] If I'm collaborating on this project, I have included their handles on the report and confirm that my report is informed, but not copied from my collaborators.
 
 # Step 2: Analyze the Proposal
 Serve Central is a mobile and web app that offer a simple solution for being unable to find volunteering events. It uses user location to find local events, display relevant information, and allow for the user to easily sign-up, all from one place.
 
 ## Step 2.1 Representative Use Cases  
 
-| Use Case #1 | |
+| Use Case #1 | Volunteer Event Sign-up |
 |---|---|
-| Title | |
-| Description / Steps | |
-| Primary Actor | |
-| Preconditions | |
-| Postconditions | |
+| Primary Actor | Volunteer |
+| Description | |
+| Preconditions | <ul><li>The user is authenticated by loggin into their account</li><li>The user is sharing location data</li></ul> |
+| Steps | <ol><li>Step 1</li><li>Step 2</li></ol> |
+| Postconditions | <ul><li>The event is added to the user's account</li><li>The number of participants is updated for the event</li></ul>|
 
-| Use Case #2 | |
+<br>
+
+| Use Case #2 | Service Agency Event Creation |
 |---|---|
-| Title | |
-| Description / Steps | |
-| Primary Actor | |
-| Preconditions | |
-| Postconditions | |
+| Primary Actor | Service Agency |
+| Description | |
+| Preconditions | <ul><li>The user is authenticated by loggin into their account</li><li>The user is sharing location data</li></ul> |
+| Steps | <ol><li>Step 1</li><li>Step 2</li></ol> |
+| Postconditions | <ul><li>The event is added to the database</li><li>?</li></ul>|
 
 ## Step 2.2 Define the MVC Components
 
