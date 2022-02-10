@@ -2,19 +2,19 @@
 ___
 **Course:** CIS 411, Spring 2021  
 **Instructor(s):** [Trevor Bunch](https://github.com/trevordbunch)  
-**Name:** Your Name  
-**GitHub Handle:** Your GitHub Handle  
-**Repository:** Your Forked Repository  
+**Name:** Timothy Lee  
+**GitHub Handle:** timothymlee  
+**Repository:** [Your Forked Repository](https://github.com/timothymlee/cis411_lab2_arch)  
 **Collaborators:** 
 ___
 
 # Step 1: Confirm Lab Setup
-- [ ] I have forked the repository and created my lab report
+- [x] I have forked the repository and created my lab report
 - [ ] I have reviewed the [lecture / discsussion](../assets/04p1_SolutionArchitectures.pdf) on architecture patterns.
 - [ ] If I'm collaborating on this project, I have included their handles on the report and confirm that my report is informed, but not copied from my collaborators.
 
 # Step 2: Analyze the Proposal
-Serve Central ... ENTER A BASIC SYSTEM INTRODUCTION HERE (1-2 Sentences).
+Serve Central is a mobile and web app that offer a simple solution for being unable to find volunteering events. It uses user location to find local events, display relevant information, and allow for the user to easily sign-up, all from one place.
 
 ## Step 2.1 Representative Use Cases  
 
