@@ -19,10 +19,10 @@ Serve Central offers a software solution to the problem of the decline of volunt
 
 | Use Case #1 | |
 |---|---|
-| Title | |
-| Description / Steps | |
-| Primary Actor | |
-| Preconditions | |
+| Title | Register for Volunteer Event |
+| Description / Steps | This use case describes how a user would register for a volunteer event.|
+| Primary Actor | Volunteer User |
+| Preconditions | 1. User is authenticated 2. Registration application is available and online |
 | Postconditions | |
 
 | Use Case #2 | |
@@ -55,6 +55,3 @@ INSERT IMAGE HERE with a Description.
 
 # Step 4: Scaling an Architecture
 INSERT Architectural change proposal here, and how it meets the four new requirements.  Explain both the benefits and draw backs of your proposal.  If the changes are significant, then you need to explain why the changes are necessary versus a nice-to-have enhancement.
-
-# Extra Credit
-If you opt to do extra credit, then include it here.
