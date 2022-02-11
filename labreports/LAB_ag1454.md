@@ -46,12 +46,14 @@ Serve Central is a system that allows for users to see all volunteering opportun
 | model receives the completed volunteering application and the type of volunteering signed up for | view updates to notify the user that their application has been submitted and adds the type of volunteering to their types of volunteering hours statistics | user submits volunteering application |
 
 ## Step 2.3 Diagram a Use Case in Architectural Terms
-INSERT IMAGE HERE with a Description.
+![UML](../assets/UML.PNG)
+
+The actor (Volunteer) performs a volunteering application submission action (Controller). The service agency and the Serve Central user statistics tracking will receive the application and type of volunteering that the volunteer applied for, respectively (Model). Volunteer will be notified that their application went through and their statistics will change (View).
 
 # Step 3: Enhancing an Architecture
 
 ## Step 3.1 Architecture Change Proposal
-INSERT Architectural change proposal here, and how it meets the two new requirements.  Explain both the benefits and draw backs of your proposal.
+Proposed architectural change: broker architecture. Both of the proposed changes to the architecture involve either third-parties accessing Serve Center or Serve Center accessing third-parties. Advantages include transparent service distribution for clients and support of dynamic CRUD. A disadvantage is potential complexity for smaller products.
 
 ## Step 3.2 Revised Architecture Diagram
 INSERT IMAGE HERE with a Description.
