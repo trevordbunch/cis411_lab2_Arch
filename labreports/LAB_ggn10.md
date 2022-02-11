@@ -39,10 +39,10 @@ Serve Central offers a software solution to the problem of the decline of volunt
 
 | Model | View | Controller |
 |---|---|---|
-| Event Registration Data from Firebase | Event Information Page | Registration.js |
-| Event Data from Firebase | Create Event Page | eventCreation.js  |
-| User Data from Firebase | User Sign-Up Page | createUser.js |
-| User Data from Firebase | User login Page | getUser.js |
+| Event Registration Data from Firebase | Event Information React Page | Registration.js |
+| Event Data from Firebase | Create Event React Page | eventCreation.js  |
+| User Data from Firebase | User Sign-Up React Page | createUser.js |
+| User Data from Firebase | User login React Page | getUser.js |
 
 ## Step 2.3 Diagram a Use Case in Architectural Terms
 ![Use Case Diagram ](/assets/UseCaseDiagram.png) 
@@ -50,10 +50,10 @@ Serve Central offers a software solution to the problem of the decline of volunt
 # Step 3: Enhancing an Architecture
 
 ## Step 3.1 Architecture Change Proposal
-INSERT Architectural change proposal here, and how it meets the two new requirements.  Explain both the benefits and draw backs of your proposal.
+I propose that Serve Central continue supporting their already developed MVC software architecture and also develop specifics Microservices. The benefit of adding a microservice architecture to Serve Central is that it solves their scaling issue. The seperate portions of Serve Central that are in high demand will be able to be developed and scaled seperately based on their need. Specifically, the registration service of Serve Central will be a microservice available for churches to embed into their website. With the sustaining of the MVC architecture, Serve Central will allow third-party services to input and retrieve data from Firebase as usual.
 
 ## Step 3.2 Revised Architecture Diagram
-INSERT IMAGE HERE with a Description.
+![Revised Architecture Diagram](/assets/)
 
 # Step 4: Scaling an Architecture
 INSERT Architectural change proposal here, and how it meets the four new requirements.  Explain both the benefits and draw backs of your proposal.  If the changes are significant, then you need to explain why the changes are necessary versus a nice-to-have enhancement.
