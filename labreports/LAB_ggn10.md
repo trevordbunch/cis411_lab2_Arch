@@ -53,7 +53,7 @@ Serve Central offers a software solution to the problem of the decline of volunt
 I propose that Serve Central continue supporting their already developed MVC software architecture and also develop specifics Microservices. The benefit of adding a microservice architecture to Serve Central is that it solves their scaling issue. The seperate portions of Serve Central that are in high demand will be able to be developed and scaled seperately based on their need. Specifically, the registration service of Serve Central will be a microservice available for churches to embed into their website. With the sustaining of the MVC architecture, Serve Central will allow third-party services to input and retrieve data from Firebase as usual.
 
 ## Step 3.2 Revised Architecture Diagram
-![Revised Architecture Diagram](/assets/RevisedArchitectureDiagram.png)
+![Revised Architecture Diagram](/assets/RADiagram.png)
 
 # Step 4: Scaling an Architecture
 INSERT Architectural change proposal here, and how it meets the four new requirements.  Explain both the benefits and draw backs of your proposal.  If the changes are significant, then you need to explain why the changes are necessary versus a nice-to-have enhancement.
