@@ -5,7 +5,7 @@ ___
 **Name:** Grace Schlauder  
 **GitHub Handle:** grace-schl  
 **Repository:** [My Forked Repository](https://github.com/grace-schl/cis411_lab2_arch)  
-**Collaborators:** 
+**Collaborators:** @MichaelMourelatos @andrewcoldsmith
 ___
 
 # Step 1: Confirm Lab Setup
@@ -14,23 +14,32 @@ ___
 - [ ] If I'm collaborating on this project, I have included their handles on the report and confirm that my report is informed, but not copied from my collaborators.
 
 # Step 2: Analyze the Proposal
-Serve Central ... ENTER A BASIC SYSTEM INTRODUCTION HERE (1-2 Sentences).
+Serve Central is an application that allows for users to have all volunteering information in their area at the tip of thier fingers. Companies can post about different volunteering oppotunities they are offering and then users can register if interested. 
 
 ## Step 2.1 Representative Use Cases  
 
 | Use Case #1 | |
 |---|---|
-| Title | |
-| Description / Steps | |
-| Primary Actor | |
-| Preconditions | |
-| Postconditions | |
+| Title | Volunteer Posting |
+| Description | A representitive for a company posts any volunteer opportunities that are currently available. |
+| Steps | 1. Representitive logs into the company's account |
+| | 2. Representative selects to create a new volunteer listing |
+| | 3. System provides a template for filling in the needed information (such as description of volunteer work, experience needed, hours of service, company contact infromation, etc.) |
+| | 4. Representitive selects that the listing is completed once all information has been imput | 
+| | 5. The listing is posted to the company's account |
+| | 6. A notification is sent out to any users who have turned on notification requests |
+| Primary Actor | The company representative |
+| Preconditions | 1. The representative is authorized to log into an account that |
+| | 2. The account is validated as being associated with said company |
+| Postconditions | 1. The listing is posted to the company's account |
+| | 2. A notification is sent out to any users who have set up notification requests |
 
 | Use Case #2 | |
 |---|---|
-| Title | |
-| Description / Steps | |
-| Primary Actor | |
+| Title | User Application |
+| Description | A user applying for their preferred volunteer opportunity. |
+| Steps |  |
+| Primary Actor | The user |
 | Preconditions | |
 | Postconditions | |
 
@@ -38,10 +47,10 @@ Serve Central ... ENTER A BASIC SYSTEM INTRODUCTION HERE (1-2 Sentences).
 
 | Model | View | Controller |
 |---|---|---|
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
+| MySQL | React Native | UML |
+| MongoDB | Ionic Framework | Koa |
+| PostgreSQL |  |  |
+| Oracle |  |  |
 
 ## Step 2.3 Diagram a Use Case in Architectural Terms
 INSERT IMAGE HERE with a Description.
