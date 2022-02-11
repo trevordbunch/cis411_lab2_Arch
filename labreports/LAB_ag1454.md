@@ -14,9 +14,7 @@ ___
 - [**X**] If I'm collaborating on this project, I have included their handles on the report and confirm that my report is informed, but not copied from my collaborators.
 
 # Step 2: Analyze the Proposal
-Serve Central ... ENTER A BASIC SYSTEM INTRODUCTION HERE (1-2 Sentences).
-
-*Serve Central is a system that allows for users to see all volunteering opportunities within a certain area and register for them in one simple application. The app also tracks user statistics for organizations.*
+Serve Central is a system that allows for users to see all volunteering opportunities within a certain area and register for them in one simple application. The app also tracks user statistics for organizations.
 
 ## Step 2.1 Representative Use Cases  
 
@@ -31,21 +29,21 @@ Serve Central ... ENTER A BASIC SYSTEM INTRODUCTION HERE (1-2 Sentences).
 
 | **Use Case #2** | |
 |---|---|
-| **Title** | |
-| **Description** | |
-| **Steps** | |
-| **Primary Actor** | |
-| **Preconditions** | |
-| **Postconditions** | |
+| **Title** | Service agency hosts an event on Serve Central |
+| **Description** | This use case describes how a service agency hosts on event on Serve Central. |
+| **Steps** | <ol><li>Service agency inputs volunteering event information.</li><li>Service agency uploads event information to Serve Central</li></ol> |
+| **Primary Actor** | Service Agency |
+| **Preconditions** | <ol><li>Serve Central has a special account option for service agencies.</li><li>Service agency has a Serve Central account and is logged in.</li></ol> |
+| **Postconditions** | <ol><li>The service agency's event is able to be viewed by volunteers looking for volunteering opportunities.</li></ol> |
 
 ## Step 2.2 Define the MVC Components
 
 | Model | View | Controller |
 |---|---|---|
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
+| model receives location info | view shows volunteering opportunities near the location info | user inputs location into map |
+| model is notified that the user has switched displays | view displays the volunteering events list | user toggles to events list |
+| model is notified that a user has logged into the system | view displays what a logged in user would see | user logs into Serve Central |
+| model receives the completed volunteering application and the type of volunteering signed up for | view updates to notify the user that their application has been submitted and adds the type of volunteering to their types of volunteering hours statistics | user submits volunteering application |
 
 ## Step 2.3 Diagram a Use Case in Architectural Terms
 INSERT IMAGE HERE with a Description.
