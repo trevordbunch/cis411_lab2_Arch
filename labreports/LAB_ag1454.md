@@ -53,13 +53,21 @@ The actor (Volunteer) performs a volunteering application submission action (Con
 # Step 3: Enhancing an Architecture
 
 ## Step 3.1 Architecture Change Proposal
-Proposed architectural change: broker architecture. Both of the proposed changes to the architecture involve either third-parties accessing Serve Center or Serve Center accessing third-parties. Advantages include transparent service distribution for clients and support of dynamic CRUD. A disadvantage is potential complexity for smaller products.
+Proposed architectural change: broker architecture. Both of the proposed changes to the architecture involve either third-parties accessing Serve Center or Serve Center accessing third-parties. Advantages include transparent service distribution for clients and support of dynamic CRUD. A disadvantage is potential complexity for smaller projects.
 
 ## Step 3.2 Revised Architecture Diagram
-INSERT IMAGE HERE with a Description.
+![Broker Diagram 1](../assets/Broker1.PNG)
+
+A client on Serve Central will see volunteering opportunities from third-parties. If they interact with the volunteering opportunities from third-parties, they will be redirected to that third-party. The ability to retrive data from Serve Central will be given to the third-parties.
+
+![Broker Diagram 2](../assets/Broker2.PNG)
+
+A client on a third-party service agency that wants to register for a volunteering opportunity will be redirected to a Serve Central server in order to fill out the registration form.
 
 # Step 4: Scaling an Architecture
-INSERT Architectural change proposal here, and how it meets the four new requirements.  Explain both the benefits and draw backs of your proposal.  If the changes are significant, then you need to explain why the changes are necessary versus a nice-to-have enhancement.
+The architectural change I propose is the microservice architecture. Based on the following future needs, the system is becoming both larger and more complex; it needs to handle more volunteer opportunity submissions, store more data, and allow ways for the queries of authorized parties to traverse that data. The microservice architecture allows for ease of scalability and understanding, smaller and faster deployments, and improved fault isolation. However, debugging can be harder, global testing is difficult, and more services means needing more resources. ([Source](https://cloudacademy.com/blog/microservices-architecture-challenge-advantage-drawback/))
+
+I also propose the peer-to-peer (P2P) architecture, specifically for the future need of consuming bursts of over 10k new volunteering opportunities per hour with a latency of 15 seconds between the submission and availability in the registration service. The main reason I propose P2P is that if a large group of peers join the network at one time, the network can easily handle the increased load. However, with the need of a mobile experience, the P2P architecture may pose problems, as the mobile devices aren't always on, so it's difficult for users to contribute to the network without draining battery and using up mobile data. ([Source](https://student.cs.uwaterloo.ca/~cs446/1171/Arch_Design_Activity/Peer2Peer.pdf))
 
 # Extra Credit
-If you opt to do extra credit, then include it here.
+My only suggested change is for step 2.1: when reading through the elements we must include, I found the Description / Steps element confusing. I interpreted it as needing one or the other, and then wondered if it mean the description and steps were meant to go together. What I eventually did was make separate sections in the use case tables so that its appearance would align more closely to the ones in Dennis, Wixom and Roth (2014). I would rewrite Description / Steps as two separate elements so that it's better understood that they're both needed.
