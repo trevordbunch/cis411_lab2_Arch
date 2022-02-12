@@ -50,10 +50,10 @@ Serve Central offers a software solution to the problem of the decline of volunt
 # Step 3: Enhancing an Architecture
 
 ## Step 3.1 Architecture Change Proposal
-I propose that Serve Central continue supporting their already developed MVC software architecture and also develop specifics Microservices. The benefit of adding a microservice architecture to Serve Central is that it solves their scaling issue. The seperate portions of Serve Central that are in high demand will be able to be developed and scaled seperately based on their need. Specifically, the registration service of Serve Central will be a microservice available for churches to embed into their website. With the sustaining of the MVC architecture, Serve Central will allow third-party services to input and retrieve data from Firebase as usual.
+I propose that Serve Central continue supporting their already developed MVC software architecture and also develop specific microservices. The benefit of adding a microservice architecture to Serve Central is that it solves their scaling issue. The seperate portions of Serve Central that are in high demand will be able to be developed and scaled seperately based on their need. Specifically, the registration service of Serve Central will be a microservice available for churches to embed into their website. With the sustaining of the MVC architecture, Serve Central will allow third-party services to input and retrieve data from Firebase as usual. A potential consequence would be the confusion and complexity of integrating both architectures to work in unison.
 
 ## Step 3.2 Revised Architecture Diagram
 ![Revised Architecture Diagram](/assets/RAdiagram.png)
 
 # Step 4: Scaling an Architecture
-INSERT Architectural change proposal here, and how it meets the four new requirements.  Explain both the benefits and draw backs of your proposal.  If the changes are significant, then you need to explain why the changes are necessary versus a nice-to-have enhancement.
+I propose that Serve Central switch to a full microservice software architecture. The future needs of the Serve Central software deal with scalability. Switching away from an MVC/Microservice hybrid will allow Serve Central to be completely scalable and handle the mass amount of user data. Twitter is a great example of a microservice that handles an immense amount of bursts and user data. These changes are needed because the MVC architecture previously employed will hold back Serve Central from growing to its full potential.
