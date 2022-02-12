@@ -10,8 +10,8 @@ ___
 
 # Step 1: Confirm Lab Setup
 - [X] I have forked the repository and created my lab report
-- [ ] I have reviewed the [lecture / discsussion](../assets/04p1_SolutionArchitectures.pdf) on architecture patterns.
-- [ ] If I'm collaborating on this project, I have included their handles on the report and confirm that my report is informed, but not copied from my collaborators.
+- [X] I have reviewed the [lecture / discsussion](../assets/04p1_SolutionArchitectures.pdf) on architecture patterns.
+- [X] If I'm collaborating on this project, I have included their handles on the report and confirm that my report is informed, but not copied from my collaborators.
 
 # Step 2: Analyze the Proposal
 Serve Central is a mobile and web application that makes volunteering easier by storing information about service activities so that users can be aware of different service opportunites near them. Users also are able to sign up for events through the apps and statisitcs are also collected based their performance.  
