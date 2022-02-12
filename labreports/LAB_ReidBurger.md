@@ -2,37 +2,37 @@
 ___
 **Course:** CIS 411, Spring 2021  
 **Instructor(s):** [Trevor Bunch](https://github.com/trevordbunch)  
-**Name:** Your Name  
-**GitHub Handle:** Your GitHub Handle  
-**Repository:** Your Forked Repository  
+**Name:** Reid Burger 
+**GitHub Handle:** @ReidBurger
+**Repository:** https://github.com/ReidBurger/cis411_lab2_arch
 **Collaborators:** 
 ___
 
 # Step 1: Confirm Lab Setup
-- [ ] I have forked the repository and created my lab report
-- [ ] I have reviewed the [lecture / discsussion](../assets/04p1_SolutionArchitectures.pdf) on architecture patterns.
-- [ ] If I'm collaborating on this project, I have included their handles on the report and confirm that my report is informed, but not copied from my collaborators.
+- [x] I have forked the repository and created my lab report
+- [x] I have reviewed the [lecture / discsussion](../assets/04p1_SolutionArchitectures.pdf) on architecture patterns.
+- [x] If I'm collaborating on this project, I have included their handles on the report and confirm that my report is informed, but not copied from my collaborators.
 
 # Step 2: Analyze the Proposal
-Serve Central ... ENTER A BASIC SYSTEM INTRODUCTION HERE (1-2 Sentences).
+Serve Central is website and mobile app that puts all volunteer opporunities in the area in one place and streamlines the application process.
 
 ## Step 2.1 Representative Use Cases  
 
 | Use Case #1 | |
 |---|---|
-| Title | |
-| Description / Steps | |
-| Primary Actor | |
-| Preconditions | |
-| Postconditions | |
+| Title | Retrieve Volunteer Opportunities |
+| Description / Steps | This will search the area surrounding the actor and return volunteer events nearby. First, the actor's location is deterined, then we find all events in a certain radius from that point, then we return all those events to the actor in the form of a nicely diplayed UI. |
+| Primary Actor | Volunteers |
+| Preconditions | The actor needs to have location services on and we need to have locations of volunteer opportunitites saved in our database, as well as a way to calculate distance from current location to event location. |
+| Postconditions | The results should be displayed for the actor and they should be able to see more details about each event, retrievin them from our database. |
 
 | Use Case #2 | |
 |---|---|
-| Title | |
-| Description / Steps | |
-| Primary Actor | |
-| Preconditions | |
-| Postconditions | |
+| Title | Upload Volunteer Opportunity |
+| Description / Steps | Actors will be able to enter information about their service opportunity, including name, description, date, time, location, and maximum volunteers. They can then click "submit" and officially register it in the database. |
+| Primary Actor | Service Agencies |
+| Preconditions | The actor must create an account so that we know who to hunt down if the event is spam, and we need to have a way to add info to the database regarding all an event's attributes and a way for volunteers to retrieve it. |
+| Postconditions | The actor must have a way of checking on the event to see how many people are signed up to volunteer, and the database must automatically un-display the event in the main volunteer search page once the event has passed. |
 
 ## Step 2.2 Define the MVC Components
 
