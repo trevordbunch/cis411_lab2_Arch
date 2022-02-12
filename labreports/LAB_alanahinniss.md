@@ -60,15 +60,19 @@ Serve Central is a mobile and web application that makes volunteering easier by 
 | Volunteer | Volunteer Registration Form | Registration for Events |
 
 ## Step 2.3 Diagram a Use Case in Architectural Terms
-INSERT IMAGE HERE with a Description.
+![MVC DIAGRAM](../assets/mvc%20diagram.png)
+
+This diagram is shows a set of MVC component for a situation in which the model is the volunteer, the view is the volunteer registration from and the controller is registration for a event. 
 
 # Step 3: Enhancing an Architecture
 
 ## Step 3.1 Architecture Change Proposal
-If Service central as to expand their services, I think it would be most effective to continue using MVC as the architectural model. Since it is not required, switching would be quite difficult. MVC is easy to adopt the changes necessary, therefore updating the exisitng mdoel would not be complicated. However, the issue with this is supporting multion views on the same model can be quite difficult. Also, mainting these changes would also be challenging.  
+If Service central as to expand their services, I think it would be most effective to continue using MVC as the architectural model. Since it is not required, switching would be quite difficult. MVC is easy to adopt the changes necessary, therefore updating the exisitng mdoel would not be complicated. Also MVC archtecture components are reusable and they can be independently deployed or mainted. However, the issue with this is supporting multion views on the same model can be quite difficult. Also, mainting these changes would also be challenging. 
 
 ## Step 3.2 Revised Architecture Diagram
-INSERT IMAGE HERE with a Description.
+![MVC Diagram 2](../assets/mvc%20diagram%20updated.png)
+
+This diagram add the "Third Party" to the model as the specific interface. By looking you can see that the flow of data continues mainly in the same path. This is because we are editing the current MVC model. 
 
 # Step 4: Scaling an Architecture
 Load balancing should be implemented to handle the increase in traffic. With the large burst of users, the use of this technique will decrease downtime, increase perfomance and creat redundancy. Load balancing will also assist with handling the necessary 50tb of data storage. However, the downside with load balancing is the cost. For the last two requirment using a Microservice architecutre would be best. The patterns of volunters can be easily examined.
