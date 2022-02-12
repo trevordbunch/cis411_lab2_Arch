@@ -3,8 +3,8 @@ ___
 **Course:** CIS 411, Spring 2021  
 **Instructor(s):** [Trevor Bunch](https://github.com/trevordbunch)  
 **Name:** Reid Burger 
-**GitHub Handle:** @ReidBurger
-**Repository:** https://github.com/ReidBurger/cis411_lab2_arch
+**GitHub Handle:** @ReidBurger  
+**Repository:** https://github.com/ReidBurger/cis411_lab2_arch  
 **Collaborators:** 
 ___
 
@@ -38,10 +38,10 @@ Serve Central is website and mobile app that puts all volunteer opporunities in 
 
 | Model | View | Controller |
 |---|---|---|
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
+| Updates results page with data | Search bar and results page | Gets data from search bar, tells model to get data about events nearby |
+| Adds a new event and all related data to database | Add opportunity form | Gets data from form, tells model to add event to database |
+| Gets data about an event (name, date, time, etc.) and displays it on the page | Event Details page | Gets data from which event you click, tells model to retrieve data about event |
+| Finds the data related to the user and displays it on the profile page | Profile page | Checks user ID and tells model to get the corresponding data |
 
 ## Step 2.3 Diagram a Use Case in Architectural Terms
 INSERT IMAGE HERE with a Description.
