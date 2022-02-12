@@ -78,5 +78,16 @@ The new architecture shows how when a request is made, it can stop at each layer
 # Step 4: Scaling an Architecture
 INSERT Architectural change proposal here, and how it meets the four new requirements.  Explain both the benefits and draw backs of your proposal.  If the changes are significant, then you need to explain why the changes are necessary versus a nice-to-have enhancement.
 
-# Extra Credit
-If you opt to do extra credit, then include it here.
+A new architecture to consider would be a Microservice approach. This would solve each problem presented as follows.
+- Bursts of 10K+ volunteers, low latency
+    - The broker will distribute users to each specific task they are completing so that there is little overlap between servers operating in parallel
+    - Each segment operating in parallel will be able to only use what it needs and free up memory for other users to use the same or different operations
+- Large volunteer and event data store
+    - The store can be saved as a separate database and can be accessed the same way as other things- the broker will do the request handling
+    - The store can be broken into segments and tasks can be directed to the corresponding segment to free up memory for other users
+- Allow queries to be issued by third parties
+    - The broker can allow access to the database if certain permissions are met 
+    - Queries can be carried out and results given without interrupting the main flow of the database because they execute on a copy of the database that is operating alongside the real one
+- Examine patterns in data
+    - An API can be created for data analytics and used similarly to the above point
+    - Makes a personal copy of the database for you to manipulate without altering the actual database
