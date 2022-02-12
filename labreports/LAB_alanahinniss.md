@@ -65,13 +65,12 @@ INSERT IMAGE HERE with a Description.
 # Step 3: Enhancing an Architecture
 
 ## Step 3.1 Architecture Change Proposal
-INSERT Architectural change proposal here, and how it meets the two new requirements.  Explain both the benefits and draw backs of your proposal.
+If Service central as to expand their services, I think it would be most effective to continue using MVC as the architectural model. Since it is not required, switching would be quite difficult. MVC is easy to adopt the changes necessary, therefore updating the exisitng mdoel would not be complicated. However, the issue with this is supporting multion views on the same model can be quite difficult. Also, mainting these changes would also be challenging.  
 
 ## Step 3.2 Revised Architecture Diagram
 INSERT IMAGE HERE with a Description.
 
 # Step 4: Scaling an Architecture
-INSERT Architectural change proposal here, and how it meets the four new requirements.  Explain both the benefits and draw backs of your proposal.  If the changes are significant, then you need to explain why the changes are necessary versus a nice-to-have enhancement.
+Load balancing should be implemented to handle the increase in traffic. With the large burst of users, the use of this technique will decrease downtime, increase perfomance and creat redundancy. Load balancing will also assist with handling the necessary 50tb of data storage. However, the downside with load balancing is the cost. For the last two requirment using a Microservice architecutre would be best. The patterns of volunters can be easily examined.
 
-# Extra Credit
-If you opt to do extra credit, then include it here.
+A new architecture will be needed because the current one cannot handle the amout of traffic in the new requirements. With the organizaiton progessing at this rate, it is quite evident that the upgrades in all areas is necessary and will beneficial - it is important that the organzaiton is ready to accomadate an large amount of users. 
