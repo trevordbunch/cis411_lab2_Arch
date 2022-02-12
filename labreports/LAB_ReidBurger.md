@@ -5,7 +5,7 @@ ___
 **Name:** Reid Burger   
 **GitHub Handle:** @ReidBurger  
 **Repository:** https://github.com/ReidBurger/cis411_lab2_arch  
-**Collaborators:** 
+**Collaborators:** None
 ___
 
 # Step 1: Confirm Lab Setup
@@ -45,15 +45,29 @@ Serve Central is website and mobile app that puts all volunteer opporunities in 
 
 ## Step 2.3 Diagram a Use Case in Architectural Terms
 ![Use Case Diagram](../assets/use_case_diagram.png)
+
 This diagram describes the actor (volunteer) requesting info about events nearby. The pre-condition is in parenthesis.
 
 ![MVC Diagram](../assets/mvc_diagram.png)
+
 This MVC diagram describes this same interaction: the actor (volunteer) interacts with the view and sends the request for data to the controller, which in turn relays it to the model and updates the view.
 
 # Step 3: Enhancing an Architecture
 
 ## Step 3.1 Architecture Change Proposal
-INSERT Architectural change proposal here, and how it meets the two new requirements.  Explain both the benefits and draw backs of your proposal.
+The new architecture could follow the Layered approach. Each task could be split into a separate layer since businesses oftentimes don't need to go down to the write/update/delete database layer. The layer would be split into Presentation (similar to View), Business (for retreival logic), Services (where data can be viewed), and Database (where information is stored and can be written/updated/deleted). 
+
+Pros
+- **Third party services** can access all the info they need by going to the Service layer
+- Direct database access is reduced by separating the database-changing layer from the view layer.
+- **Interfaces** can be built by only going down to the Service layer, which is a lighter load for the system to handle than the database layer
+- The database layer only needs to be accessed by third party services (for adding events) and by the system itself (for deleting past events or adding to the number of volunteers)
+
+Cons
+- The first three layers are usually accessed together since you don't often stop at the logic with no data to read
+- This doesn't help to reduce the load when extreme stress is placed on the system by lots of people updating or changing data at once
+- If an upper layer is broken, it will halt the transaction
+
 
 ## Step 3.2 Revised Architecture Diagram
 INSERT IMAGE HERE with a Description.
