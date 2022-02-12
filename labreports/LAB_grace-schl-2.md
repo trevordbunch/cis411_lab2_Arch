@@ -9,9 +9,9 @@ ___
 ___
 
 # Step 1: Confirm Lab Setup
-- [ ] I have forked the repository and created my lab report
-- [ ] I have reviewed the [lecture / discsussion](../assets/04p1_SolutionArchitectures.pdf) on architecture patterns.
-- [ ] If I'm collaborating on this project, I have included their handles on the report and confirm that my report is informed, but not copied from my collaborators.
+- [X] I have forked the repository and created my lab report
+- [X] I have reviewed the [lecture / discsussion](../assets/04p1_SolutionArchitectures.pdf) on architecture patterns.
+- [X] If I'm collaborating on this project, I have included their handles on the report and confirm that my report is informed, but not copied from my collaborators.
 
 # Step 2: Analyze the Proposal
 Serve Central is an application that allows for users to have all volunteering information in their area at the tip of thier fingers. Companies can post about different volunteering oppotunities they are offering and then users can register if interested. 
@@ -38,22 +38,31 @@ Serve Central is an application that allows for users to have all volunteering i
 |---|---|
 | Title | User Application |
 | Description | A user applying for their preferred volunteer opportunity. |
-| Steps |  |
-| Primary Actor | The user |
-| Preconditions | |
-| Postconditions | |
+| Steps | 1. User logs into their account |
+| | 2.  User navigates to the preferred volunteer opportunity listing|
+| | 3. User selects the opption to apply for opportunity ("Apply" button) |
+| | 4. User is directed to a page with prompts to fill out all of the information that the company needs about the user|
+| | 5.  User submits their application for volunteer opportunity|
+| | 6. Application is sent to company |
+| | 7.  User recieves an email or text that confirms that their application has been completed |
+| Primary Actor | The user recieves either an email or text that informs them that their application has successfully been completed|
+| Preconditions | The user is logged into an account that has been verified through email or phone number|
+| Postconditions | 1. The user's application has been sent to the company |
+| | 2. The user recieves an email or text that confirms that their application has been completed |
 
 ## Step 2.2 Define the MVC Components
 
 | Model | View | Controller |
 |---|---|---|
-| MySQL | React Native | UML |
-| MongoDB | Ionic Framework | Koa |
-| PostgreSQL |  |  |
-| Oracle |  |  |
+| Name | Organization Page | OrganizationFeedController |
+| Location | Volunteer Page | VolunteerFeedController |
+| Event Title | Event Feed | EventFeedController |
+| Event Description | Description Page | EventDescriptionsController |
 
 ## Step 2.3 Diagram a Use Case in Architectural Terms
-INSERT IMAGE HERE with a Description.
+![Use Case Diagram](assets/../../assets/Use_Case_Diagram.jpg)
+
+![MVC Diagram](../assets/MVC_diagram.jpg)
 
 # Step 3: Enhancing an Architecture
 
