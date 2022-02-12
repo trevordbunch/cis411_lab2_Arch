@@ -62,6 +62,7 @@ Pros
 - Direct database access is reduced by separating the database-changing layer from the view layer.
 - **Interfaces** can be built by only going down to the Service layer, which is a lighter load for the system to handle than the database layer
 - The database layer only needs to be accessed by third party services (for adding events) and by the system itself (for deleting past events or adding to the number of volunteers)
+- The database layer can be reached by the service layer if there is complex data that needs to be retrieved, i.e. data that can needs to be combined with other data
 
 Cons
 - The first three layers are usually accessed together since you don't often stop at the logic with no data to read
@@ -70,7 +71,9 @@ Cons
 
 
 ## Step 3.2 Revised Architecture Diagram
-INSERT IMAGE HERE with a Description.
+![Revised Architecture Diagram](../assets/new_arch_diagram.png)
+
+The new architecture shows how when a request is made, it can stop at each layer if necessary or continue if more information is needed. Additionally, if an add/update/delete request is made, the middle two layers can be skipped. Alternatively, if there is only data to be read, it can go down through the layers on a separate path.
 
 # Step 4: Scaling an Architecture
 INSERT Architectural change proposal here, and how it meets the four new requirements.  Explain both the benefits and draw backs of your proposal.  If the changes are significant, then you need to explain why the changes are necessary versus a nice-to-have enhancement.
