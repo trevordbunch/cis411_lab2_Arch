@@ -52,10 +52,12 @@ The image above is an illustration of Use Case #1 in the MVC format. The user ca
 # Step 3: Enhancing an Architecture
 
 ## Step 3.1 Architecture Change Proposal
-INSERT Architectural change proposal here, and how it meets the two new requirements.  Explain both the benefits and draw backs of your proposal.
+A microservice architecture would be a suitable archiecture solution to the new requirements. Since a microservice architecture is a collection of small apps that perform specific tasks. Those apps then serve as the foundation of other apps which server as the foundation for other apps, continued up to the overall web app. With the addition of the four primary volunteer entities in the US, scalability is an important concern and the microservice architecture handles this well. Additionally, the different apps can be used to create the different APIs necessary to input and recieve data from and to thirdparty services. It would also allow for different interfaces to be built on top of the Serve Central business and data logic, because  the different apps already made as the foundation of the Serve Central can be combined again and formatted differently for the specific organizations.
+One significant drawback that should be considered is the complexity, which could lead to long development times. With such, it may not be ready in time for the desired launch date.
 
 ## Step 3.2 Revised Architecture Diagram
-INSERT IMAGE HERE with a Description.
+![Microservice Architecture Diagram](../assets/MicroserviceDiagram.svg)
+A microservice is an architecture with many smaller apps that serve as foundations for larger apps, eventually building the webpage. As per the requirements, there will be different services for both large service agencies, consumers, and individual organizations. Each service is built on the different layers of apps that have other apps that serve as their foundation, each performing a specific task, like database interfacing.
 
 # Step 4: Scaling an Architecture
 INSERT Architectural change proposal here, and how it meets the four new requirements.  Explain both the benefits and draw backs of your proposal.  If the changes are significant, then you need to explain why the changes are necessary versus a nice-to-have enhancement.
