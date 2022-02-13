@@ -60,8 +60,10 @@ Serve Central is an application that allows for users to have all volunteering i
 | Event Registration | Registration Form | EventRegistrationController |
 
 ## Step 2.3 Diagram a Use Case in Architectural Terms
+The diagram below shows the relation between a user, server central, and the volunteer agency. The proccess within the diagram is the user creating an account, the volunteer agency posting a new event, and the user sending the agency an application form.
 ![Use Case Diagram](assets/../../assets/Use_Case_Diagram.jpg)
 
+This diagram shows what happens within an MVC model when the user interacts with the application.
 ![MVC Diagram](../assets/MVC_diagram.jpg)
 
 # Step 3: Enhancing an Architecture
@@ -76,10 +78,20 @@ Microservices will also be beneficial for the second new requirement because the
 A disadvantage to switching to microservices is that the MVC model is easier to start out using. MVC helps to reduce project development time since it is only divided into three distinct sections. So with using microservices, development might take longer and be slightly more complicated to integrate at first. However, in the long run, it will be worth it because it will already be set up for future growth.
 
 ## Step 3.2 Revised Architecture Diagram
+This diagram shows how the mobile app and web interface would access different microservices connecting to the corresponding databases. It also shows how third party services would have access to upload and recieve information from the appropriate databases. Organization-specific interfaces are also shown with their appropriate connections to databases.
 ![Microservices Moodel](../assets/Microservices_Model.jpg)
 
 # Step 4: Scaling an Architecture
-INSERT Architectural change proposal here, and how it meets the four new requirements.  Explain both the benefits and draw backs of your proposal.  If the changes are significant, then you need to explain why the changes are necessary versus a nice-to-have enhancement.
+For a scaling architecutre, I would keep the microservice architecture. 
+
+1. This architecture is able to tackle latency problems because certain tasks are being performed on a single service. So volunteer requests will be going through a specified micoservice that connects to the needed databases which will keep all of the activity separated from other services.
+2. Since the data is separated into different databases, storage isn't really much of an issue. If space does become an issue, I imagine that adding another database for the overflow data would be possible.
+3. Authorized parties would be allowed to query the data by giving them access to certain database that are needed to complete their queries. It will also be easier for them to query the data because they only have access to the data they need.
+4. Researchers can be given read-only access to the databases needed for their research. They would not be given access to databases that contain private information, such as user credentials. However, they could receive access to databases that contain event information and user who attended the event. 
+
+
+A disadvantage to this architecture is that it can create a lot of complexity issues when an over abundance of databases are created. So while it can be helpful if structured correctly, each database needs to be intentionally created in order to maximize efficiency and minimize complexity.
+
 
 # Extra Credit
 If you opt to do extra credit, then include it here.
