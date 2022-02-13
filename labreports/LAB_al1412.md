@@ -21,18 +21,18 @@ Serve Central helps its users to find volunteer work through a mobile applicatio
 | Use Case #1 | |
 |---|---|
 | Title | Opening Central Service app for the first time |
-| Description / Steps | 1. The user first sees the welcome page, then should click the sign up button on the page. 
-2. The user sees the sign up page, in which they fill out information such as their name, email address, and password. 
-3. After this, the user should click the submit button at the bottom of the page, which leads them to a confirmation page confiriming that the information has been sent.  
-4. After getting to the confirmation page, the user should check their email for a confirmation message, then click the link in that email to log into Central Service.
-5. After logging in, the user should be directed to the main page of the Central Service website for the location which they are volunteering at. |
+| Description / Steps | <ul><li> The user first sees the welcome page, then should click the sign up button on the page. </li>
+<li> The user sees the sign up page, in which they fill out information such as their name, email address, and password. </li>
+<li> After this, the user should click the submit button at the bottom of the page, which leads them to a confirmation page confirming that the information has been sent. </li> 
+<li> After getting to the confirmation page, the user should check their email for a confirmation message, then click the link in that email to log into Central Service. </li>
+<li> After logging in, the user should be directed to the main page of the Central Service website for the location which they are volunteering at. </li></ul> |
 | Primary Actor | Volunteer |
 | Preconditions | Have an account through central service, have location feature enabled |
 | Postconditions | User gets confirmation email, information is sent to registar upon completion of application, the app is updates the number of volunteers at a location |
 
 | Use Case #2 | |
 |---|---|
-| Title | |
+| Title |  |
 | Description / Steps | |
 | Primary Actor | |
 | Preconditions | |
