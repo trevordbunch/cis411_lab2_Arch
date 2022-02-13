@@ -48,6 +48,8 @@ Steps: 1. The system asks basic questions about the project at hand, such as: th
 ## Step 2.3 Diagram a Use Case in Architectural Terms
 ![alt text](https://viewer.diagrams.net/?tags=%7B%7D&highlight=0000ff&edit=_blank&layers=1&nav=1#G1KNIDqQDh5SRiP6THC06sZgTn1IUAuNCz)
 
+Description: The view, in this case the current events, is the only thing that the volunteer can see. The view is altered by the controller, "add event". This controller has a two way relationship the model of "events" which would be connected to the database.
+
 # Step 3: Enhancing an Architecture
 
 ## Step 3.1 Architecture Change Proposal
