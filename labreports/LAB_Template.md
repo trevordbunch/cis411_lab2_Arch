@@ -46,7 +46,7 @@ Steps: 1. The system asks basic questions about the project at hand, such as: th
 | Locations | Current Locations | Add Location |
 
 ## Step 2.3 Diagram a Use Case in Architectural Terms
-![alt text](https://viewer.diagrams.net/?tags=%7B%7D&highlight=0000ff&edit=_blank&layers=1&nav=1#G1KNIDqQDh5SRiP6THC06sZgTn1IUAuNCz)
+![alt text](<img src="https://docs.google.com/drawings/d/e/2PACX-1vSq7jUc9npgj92xibaxbKE5VINyIvBUpwrDKwmXckfEgEV5qZienLsHnezc_VJHxwUoy_qxehML4Y0K/pub?w=960&amp;h=720">)
 
 Description: The view, in this case the current events, is the only thing that the volunteer can see. The view is altered by the controller, "add event". This controller has a two way relationship the model of "events" which would be connected to the database.
 
