@@ -14,7 +14,7 @@ ___
 - [X] If I'm collaborating on this project, I have included their handles on the report and confirm that my report is informed, but not copied from my collaborators.
 
 # Step 2: Analyze the Proposal
-Serve Central is a mobile and web application that makes volunteering easier by storing information about service activities so that users can be aware of different service opportunites near them. Users also are able to sign up for events through the apps and statisitcs are also collected based their performance.  
+Serve Central is a mobile and web application that makes volunteering easier by storing information about service activities so that users can be aware of different service opportunites near them. Users also are able to sign up for events through the apps and statisitcs are also collected based on their performance.  
 
 ## Step 2.1 Representative Use Cases  
 
