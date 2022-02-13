@@ -54,10 +54,10 @@ Serve Central is an application that allows for users to have all volunteering i
 
 | Model | View | Controller |
 |---|---|---|
-| Name | Organization Page | OrganizationFeedController |
-| Location | Volunteer Page | VolunteerFeedController |
-| Event Title | Event Feed | EventFeedController |
-| Event Description | Description Page | EventDescriptionsController |
+| Login | Login Page | CredentialController |
+| Oranization | Organization Page | OrganizationInfoController |
+| Location | Event Map | EventLocationController |
+| Event Registration | Registration Form | EventRegistrationController |
 
 ## Step 2.3 Diagram a Use Case in Architectural Terms
 ![Use Case Diagram](assets/../../assets/Use_Case_Diagram.jpg)
@@ -76,7 +76,7 @@ Microservices will also be beneficial for the second new requirement because the
 A disadvantage to switching to microservices is that the MVC model is easier to start out using. MVC helps to reduce project development time since it is only divided into three distinct sections. So with using microservices, development might take longer and be slightly more complicated to integrate at first. However, in the long run, it will be worth it because it will already be set up for future growth.
 
 ## Step 3.2 Revised Architecture Diagram
-INSERT IMAGE HERE with a Description.
+![Microservices Moodel](../assets/Microservices_Model.jpg)
 
 # Step 4: Scaling an Architecture
 INSERT Architectural change proposal here, and how it meets the four new requirements.  Explain both the benefits and draw backs of your proposal.  If the changes are significant, then you need to explain why the changes are necessary versus a nice-to-have enhancement.
