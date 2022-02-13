@@ -50,10 +50,11 @@ Details how a volunteer would go about signing up for a highway cleanup, as well
 # Step 3: Enhancing an Architecture
 
 ## Step 3.1 Architecture Change Proposal
-INSERT Architectural change proposal here, and how it meets the two new requirements.  Explain both the benefits and draw backs of your proposal.
+The new architectural pattern I would suggest is using the layered architectural pattern. The reason for this is that it would presumably allow the different third-party services to access data from the data store layer, and with the ability to add autonomous enhancements, should allow businesses to develop and implement their own specific interfaces. A drawback to adopting this pattern, however, would be the extra management and observation for the newly created layers, especially as those used to the previous structure will likely be unfamiliar with the new one.
 
 ## Step 3.2 Revised Architecture Diagram
-INSERT IMAGE HERE with a Description.
+![alt text](/assets/Layered_Architecture.drawio.svg)
+Makes use of various layers for businesses to implement their specific interface implementations and access to other useful datasets.
 
 # Step 4: Scaling an Architecture
 INSERT Architectural change proposal here, and how it meets the four new requirements.  Explain both the benefits and draw backs of your proposal.  If the changes are significant, then you need to explain why the changes are necessary versus a nice-to-have enhancement.
