@@ -14,37 +14,38 @@ ___
 - [x] If I'm collaborating on this project, I have included their handles on the report and confirm that my report is informed, but not copied from my collaborators.
 
 # Step 2: Analyze the Proposal
-Serve Central ... ENTER A BASIC SYSTEM INTRODUCTION HERE (1-2 Sentences).
+Serve Central is an all-in-one event registration solution which aims to grant its users a simple, consistent, and streamlined process for signing up for volunteering events. 
 
 ## Step 2.1 Representative Use Cases  
 
-| Use Case #1 | |
-|---|---|
-| Title | |
-| Description / Steps | |
-| Primary Actor | |
-| Preconditions | |
-| Postconditions | |
+| Use Case #1       |                                                                                                                                  |
+|-------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Title             | Sign up for highway cleanup                                                                                                                                                                |
+| Description/Steps | 1. User logs into account 2. Map loads showing user's location and nearby events. 3. If user sees desired event, and meet the criteria for it, they apply and registration data goes to the server. 4. If not, user can broaden and limit search range and conditions. 5. If the user still cannot find a cleanup event that meets their conditions after repeated searches, a prompt will appear asking the user if they want to report a missing event. 6. If the user clicks yes, the user enters information on the type of event, what organization was hosting it, and any additional comments they may have. |
+| Primary Actor     | Volunteer                                                                                                                     |
+| Preconditions     | 1. User is logged into account. 2. User has access to Serve Central database server.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| Postconditions    | Successful attempts to sign up for an event are recorded for statistic tracking, as well as failed searches.                                                                                                                                                                                                                                                            |
 
 | Use Case #2 | |
 |---|---|
-| Title | |
-| Description / Steps | |
-| Primary Actor | |
-| Preconditions | |
-| Postconditions | |
+| Title |Organization schedules event|
+| Description / Steps |1. Organizer signs into organizer account. 2. Organizer selects create event, and enters in relevant data. 3. This data is passed to the server and waits for the event to be approved (This is to prevent abuse or misuse of events). 4. If the event is approved, then the event shows up on the map to be searched for. 5. If the event is rejected, user gets detailed report as to why, and steps they can take to get it approved.|
+| Primary Actor |Event organizer|
+| Preconditions |1. Organizer has all relevant data for event. 2. Organizer goes through the standard process for event registration and creation.|
+| Postconditions |1. Event data is sufficient to allow showing up on map. 2. If the event is cancelled, it is updated immediately to prevent users from registering for a non-existant event. 3. Once an event is over, is automatically removed from map.|
 
 ## Step 2.2 Define the MVC Components
 
 | Model | View | Controller |
 |---|---|---|
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
+|Loads startup data.  | User clicks on ServeCentral app from smartphone. |Launches ServeCentral app.  |
+|Login information is received and allows user to login | User prompted to enter login infomation. | Login information sent to model to determine user.  |
+|Gives back data on event.  | User clicks on event. | Event information request is sent to model. |
+|Model is updated to reflect the new user registered for the event. |User applies for an event.  |User information is sent to model.  |
 
 ## Step 2.3 Diagram a Use Case in Architectural Terms
-INSERT IMAGE HERE with a Description.
+![alt text](/assets/Use_Case_Architecture.drawio.svg)
+Details how a volunteer would go about signing up for a highway cleanup, as well as how it interacts with the view, model, controller, etc.
 
 # Step 3: Enhancing an Architecture
 
