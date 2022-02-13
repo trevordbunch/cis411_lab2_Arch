@@ -38,10 +38,10 @@ Serve Central helps its users to find volunteer work through a mobile applicatio
 
 | Model | View | Controller |
 |---|---|---|
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
+| Email not verified | Displays a message telling the user to update their email | Checks if user has updated/verified their email |
+| Location share not granted | Displays a message telling the user to allow location permissions | Checks if user has allowed location permissions |
+| Confirm a volunteer position | Displays a message asking the user if they want to go through with a volunteer position they applied for | Checks if user has accepted the offer |
+| Log out | Displays a message asking the user if they are sure they want to log out after clicking the log out button | Checks if the user really wants to log out of Serve Central or not |
 
 ## Step 2.3 Diagram a Use Case in Architectural Terms
 INSERT IMAGE HERE with a Description.
