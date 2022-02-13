@@ -61,7 +61,6 @@ INSERT IMAGE HERE with a Description.
 ![alt text](https://docs.google.com/drawings/d/e/2PACX-1vSGsaHH79ziCSuMxpdZiQb0t7j9aMOi-d4lG1ahvEC3hd5li9JFyP-pppHlFD7deli39icoAIBuP1g2/pub?w=960&h=720 "Diagram 2")
 
 # Step 4: Scaling an Architecture
-INSERT Architectural change proposal here, and how it meets the four new requirements.  Explain both the benefits and draw backs of your proposal.  If the changes are significant, then you need to explain why the changes are necessary versus a nice-to-have enhancement.
 
 In this instance, there will be no dramatic changes to the arcitecture design simply due to the fact that it is already in peer-to-peer form from the latest scale increase. Peer-to-peer is definitley the best choice for this system design for multiple reasons. One of the largest reasons is due to the fact that such a large amount of other users will need access to the authorization to issue queries of this system. Within the peer-to-peer architectural design, an unlimited number of people will be able to access and modify the system as they deem fit. One of the downsides to this system is that since such a large number of people are going to be modifying, there will be a lack of communication between all of the new modifiers. I believe there will need to be "nice-to-have enhancements" since there will be such a large uproar in new users, but nothing significant since overall, it is the same system in place.
 
