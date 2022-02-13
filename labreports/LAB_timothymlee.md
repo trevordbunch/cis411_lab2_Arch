@@ -46,7 +46,8 @@ Serve Central is a mobile and web app that offer a simple solution for being una
 | Event Creation | Form with different fields to fill out | Updates database of events and outputs confirmation |
 
 ## Step 2.3 Diagram a Use Case in Architectural Terms
-INSERT IMAGE HERE with a Description.
+![Customer Event Sign Up Use Case](../assets/UseCaseDiagram.svg)
+The image above is an illustration of Use Case #1 in the MVC format. The user can click to show the available events. The request is then sent to the controller which makes a query in the database to retrieve events near the user. The data from that query is then pushed from the controller to update the view. The user can then select to add an event, triggering another controller action which will update the event's participant data and add the event to the user's list of events. That will then be available for the user to view.
 
 # Step 3: Enhancing an Architecture
 
