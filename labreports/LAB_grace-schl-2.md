@@ -1,11 +1,11 @@
 # Lab Report: Continuous Integration
 ___
-**Course:** CIS 411, Spring 2021  
+**Course:** CIS 411, Spring 2022  
 **Instructor(s):** [Trevor Bunch](https://github.com/trevordbunch)  
 **Name:** Grace Schlauder  
 **GitHub Handle:** grace-schl  
 **Repository:** [My Forked Repository](https://github.com/grace-schl/cis411_lab2_arch)  
-**Collaborators:** @MichaelMourelatos @andrewcoldsmith
+**Collaborators:** [Michael Mourelatos](https://github.com/MichaelMourelatos) and [Andrew Coldsmith](https://github.com/andrewcoldsmith)
 ___
 
 # Step 1: Confirm Lab Setup
@@ -94,4 +94,8 @@ A disadvantage to this architecture is that it can create a lot of complexity is
 
 
 # Extra Credit
-If you opt to do extra credit, then include it here.
+1. This comprehensive diagram shows how the ServeCentral mobile app and web interface would access data through different microservices and databases.
+![Updated Architecture](../assets/Updated_Microservices_Model.jpg)
+
+2. One meaningful change that I would make is to give more description on what you were looking for when it came to the MVC model table in step 2.2. I originally thought that you were looking for examples of actaul software that can be used to create the application (such as researching React Native, types of databases, types of controller).
+
