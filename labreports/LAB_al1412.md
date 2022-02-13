@@ -20,10 +20,10 @@ Serve Central helps its users to find volunteer work through a mobile applicatio
 
 | Use Case #1 | |
 |---|---|
-| Title | |
+| Opening Central Service app for the first time | |
 | Description / Steps | |
-| Primary Actor | |
-| Preconditions | |
+| Volunteer | |
+| Have an account through central service, have location feature enabled | |
 | Postconditions | |
 
 | Use Case #2 | |
