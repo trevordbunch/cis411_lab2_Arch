@@ -60,6 +60,10 @@ Serve Central is a mobile and web application that makes volunteering easier by 
 | Volunteer | Volunteer Registration Form | Registration for Events |
 
 ## Step 2.3 Diagram a Use Case in Architectural Terms
+![USE CASE](../assets/case%20.png)
+
+This diagram shows the interaction between an actor in the use case. The actors are the users (volunteers). This displays how the actor must serach for an event which was created and hosted by a service agency. They can sign up and particpate in an event of ther choice. 
+
 ![MVC DIAGRAM](../assets/mvc%20diagram.png)
 
 This diagram is shows a set of MVC component for a situation in which the model is the volunteer, the view is the volunteer registration from and the controller is registration for a event. 
