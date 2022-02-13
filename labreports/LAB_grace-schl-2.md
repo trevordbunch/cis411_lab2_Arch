@@ -67,7 +67,13 @@ Serve Central is an application that allows for users to have all volunteering i
 # Step 3: Enhancing an Architecture
 
 ## Step 3.1 Architecture Change Proposal
-INSERT Architectural change proposal here, and how it meets the two new requirements.  Explain both the benefits and draw backs of your proposal.
+My proposal for changing the architecture is to switch from the MVC model to the Microservice model. Microservices is comparable to MVC, but the main difference is that Microservices do not share a data layer. Each microservice connected to the user interface has its own database and is seprate from other microservices.
+
+Microservices will be benefitial for the first new requirement because the third party services can be associated with their own microservice and database. This way the third party services will have full access to their own database that they can upload and retrieve data from, without having to sift through other data that does not belong to them or isn't needed. 
+
+Microservices will also be beneficial for the second new requirement because the registration services can be part of their own database that websites can access and embed as needed.
+
+A disadvantage to switching to microservices is that the MVC model is easier to start out using. MVC helps to reduce project development time since it is only divided into three distinct sections. So with using microservices, development might take longer and be slightly more complicated to integrate at first. However, in the long run, it will be worth it because it will already be set up for future growth.
 
 ## Step 3.2 Revised Architecture Diagram
 INSERT IMAGE HERE with a Description.
