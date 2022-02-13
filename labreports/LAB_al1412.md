@@ -20,19 +20,19 @@ Serve Central helps its users to find volunteer work through a mobile applicatio
 
 | Use Case #1 | |
 |---|---|
-| Title | Opening Central Service app for the first time |
-| Description / Steps | <ul><li> The user first sees the welcome page, then should click the sign up button on the page.</li><li> The user sees the sign up page, in which they fill out information such as their name, email address, and password. </li><li> After this, the user should click the submit button at the bottom of the page, which leads them to a confirmation page confirming that the information has been sent. </li><li> After getting to the confirmation page, the user should check their email for a confirmation message, then click the link in that email to log into Central Service. </li><li> After logging in, the user should be directed to the main page of the Central Service website for the location which they are volunteering at. </li></ul> |
+| Title | Opening Serve Central app for the first time |
+| Description / Steps | <ul><li> The user first sees the welcome page, then should click the sign up button on the page.</li><li> The user sees the sign up page, in which they fill out information such as their name, email address, and password. </li><li> After this, the user should click the submit button at the bottom of the page, which leads them to a confirmation page confirming that the information has been sent. </li><li> After getting to the confirmation page, the user should check their email for a confirmation message, then click the link in that email to log into Serve Central. </li><li> After logging in, the user should be directed to the main page of the Serve Central website for the location which they are volunteering at. </li></ul> |
 | Primary Actor | Volunteer |
-| Preconditions | Have an account through central service, have location feature enabled |
+| Preconditions | Have an account through Serve Central, have location feature enabled |
 | Postconditions | User gets confirmation email, information is sent to registar upon completion of application, the app is updates the number of volunteers at a location |
 
 | Use Case #2 | |
 |---|---|
-| Title |  |
-| Description / Steps | |
-| Primary Actor | |
-| Preconditions | |
-| Postconditions | |
+| Title | View volunteering history |
+| Description / Steps | The user clicks the profile option at the bottom menu of the app, then clicks on the "Volunteer History" section of the profile page to view the amount of volunteer positions they have had, as well as how many hours they worked for each one. |
+| Primary Actor | Volunteer |
+| Preconditions | Have an account through Serve Central, have volunteer positions secured through Serve Central |
+| Postconditions | User gets a detailed history of all volunteer positions which they have gotten through Serve Central |
 
 ## Step 2.2 Define the MVC Components
 
