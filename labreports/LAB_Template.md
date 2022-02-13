@@ -46,14 +46,15 @@ Steps: 1. The system asks basic questions about the project at hand, such as: th
 | Locations | Current Locations | Add Location |
 
 ## Step 2.3 Diagram a Use Case in Architectural Terms
-![alt text](<img src="https://docs.google.com/drawings/d/e/2PACX-1vSq7jUc9npgj92xibaxbKE5VINyIvBUpwrDKwmXckfEgEV5qZienLsHnezc_VJHxwUoy_qxehML4Y0K/pub?w=960&amp;h=720">)
+![alt text](https://docs.google.com/drawings/d/e/2PACX-1vSq7jUc9npgj92xibaxbKE5VINyIvBUpwrDKwmXckfEgEV5qZienLsHnezc_VJHxwUoy_qxehML4Y0K/pub?w=960&h=720 "Diagram 1")
 
 Description: The view, in this case the current events, is the only thing that the volunteer can see. The view is altered by the controller, "add event". This controller has a two way relationship the model of "events" which would be connected to the database.
 
 # Step 3: Enhancing an Architecture
 
 ## Step 3.1 Architecture Change Proposal
-INSERT Architectural change proposal here, and how it meets the two new requirements.  Explain both the benefits and draw backs of your proposal.
+
+The new architecure should be built on a peer to peer format. This will give equal control to all nodes involved in the system. This format will be ideal due to the fact that thirdparty services will now have access to input and retreive data since all nodes are now equal. Their is no heirarchy to this system. Also, the new organization-specific interfaces of Serve Central will not cause harm to the data logic since it will be decentralized. Along with a decentalized execution and communication, there is also limited redundency. However, for peer-to-peer architecture to be effective, there must be a deep consideration of a continuous release as well as observability strategy. For Serve Central, this would look like constantly being up to date with what is going on in the system and how to make it better.
 
 ## Step 3.2 Revised Architecture Diagram
 INSERT IMAGE HERE with a Description.
