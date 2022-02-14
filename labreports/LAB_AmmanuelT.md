@@ -2,9 +2,9 @@
 ___
 **Course:** CIS 411, Spring 2021  
 **Instructor(s):** [Trevor Bunch](https://github.com/trevordbunch)  
-**Name:** Your Name  
-**GitHub Handle:** Your GitHub Handle  
-**Repository:** Your Forked Repository  
+**Name:** Ammanuel Tamrat 
+**GitHub Handle:** AmmanuelT 
+**Repository:** https://github.com/AmmanuelT/cis411_lab2_arch 
 **Collaborators:** 
 ___
 
@@ -14,7 +14,7 @@ ___
 - [x] If I'm collaborating on this project, I have included their handles on the report and confirm that my report is informed, but not copied from my collaborators.
 
 # Step 2: Analyze the Proposal
-Serve Central is a system hoping to solve the problem of decreasing number of volunteers in the U.S. Serve Central hopes to acheive this by making the process of volunteering easier for volunteers by creating a system that requires users only to apply once before being track and apply to all volunteering oppportunities.
+Serve Central is a system hoping to solve the problem of decreasing the number of volunteers in the U.S. Serve Central hopes to achieve this by making the process of volunteering easier for volunteers by creating a system that allows users to create one account through which they can view and sign up for opportunities.
 
 ## Step 2.1 Representative Use Cases  
 
@@ -50,13 +50,14 @@ Serve Central is a system hoping to solve the problem of decreasing number of vo
 # Step 3: Enhancing an Architecture
 
 ## Step 3.1 Architecture Change Proposal
-INSERT Architectural change proposal here, and how it meets the two new requirements.  Explain both the benefits and draw backs of your proposal.
+The MVC architectural pattern would still be appropriate in this case as the system is already using the architectural pattern. It would make it easier to implement the volunteer recruitment and management interface in the existing system by adding new views and controllers allowing the volunteer entities to retrieve data from the existing models. Using the MVC architectural pattern would also simplify the process of building organization-specific interfaces on top of the Serve Central business and data logic because we would only need to add a controller for the interfaces to interact with without changing the models.
+
+An adverse effect of using MVC is the complexity of the overall system. Building and maintaining it will require knowledge of the diverse technologies that it is built on.
 
 ## Step 3.2 Revised Architecture Diagram
-INSERT IMAGE HERE with a Description.
+* Diagram of Enhacned Architecture
+![Enhanced Use Case Diagram](../assets/Enhanced.svg)
+
 
 # Step 4: Scaling an Architecture
-INSERT Architectural change proposal here, and how it meets the four new requirements.  Explain both the benefits and draw backs of your proposal.  If the changes are significant, then you need to explain why the changes are necessary versus a nice-to-have enhancement.
-
-# Extra Credit
-If you opt to do extra credit, then include it here.
+A peer-to-peer architecture is optimal for the new requirements of the system. First seeing the amount of traffic that the system would experience having the necessary information distributed among the different agencies will make it not only easier to access but less expensive than having an MVC architecture with models able to support such traffic. Storing the massive amount of data will also be easier in a peer-to-peer architecture as it will mean that the data will be more distributed. Another reason to switch from an MVC to a peer-to-peer is that coming up with a model that incorporates all the business rules for each service would be quite hard due to the scale.
