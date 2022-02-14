@@ -3,9 +3,9 @@ ___
 **Course:** CIS 411, Spring 2021  
 **Instructor(s):** [Trevor Bunch](https://github.com/trevordbunch)  
 **Name:** Adam Lenker    
-**GitHub Handle:** al1412  
+**GitHub Handle:** @al1412  
 **Repository:** https://github.com/al1412/cis411_lab2_arch  
-**Collaborators:** Ricardo Padilla (ricardoianpadilla)    
+**Collaborators:** Ricardo Padilla (@ricardoianpadilla)    
 ___
 
 # Step 1: Confirm Lab Setup
@@ -50,7 +50,16 @@ Serve Central helps its users to find volunteer work through a mobile applicatio
 # Step 3: Enhancing an Architecture
 
 ## Step 3.1 Architecture Change Proposal
-INSERT Architectural change proposal here, and how it meets the two new requirements.  Explain both the benefits and draw backs of your proposal.
+Since the process in which a user can get volunteering information is direct, a layered architecture is the best option for this application. The layered architecture will create four layers: the User layer, the Presentation layer, the Business layer, and the Database layer. The User layer communicates with the Presentation layer to give a view of the page which the user can interact with to send a request to the Business layer. This is what the Business layer will use preset logic to determine what the request needs and/or if the request meets the logics preset. After the logic decision has been made to complete the request, the Business layer communicates with the Database layer to request data for the presentation layer which it updates.    
+
+Pros:    
+-A volunteering service can send volunteering data to be processed into the database.
+-Simple and fast design
+-Volunteering services do not have direct access to the database for security purposes
+
+Cons:    
+-If a layer has an issue, then the following layer cannot be used by the user.
+-Not great with handling large loads of data
 
 ## Step 3.2 Revised Architecture Diagram
 ![3 2 Revised Architecture Diagram drawio](https://user-images.githubusercontent.com/97567307/153790538-b6a934ab-542f-40f6-9e9b-e712ebfe6a6f.png)
