@@ -69,4 +69,4 @@ As the website grows, loads become larger and speed is a priority along with acc
 ![Simplified Example](https://github.com/Ricardoianpadilla/cis411_lab2_arch/blob/6472a51a5cb3a7521a5f91c9b66648a6172a2d20/labreports/Untitled%20Diagram.drawio.png)
 
 # Extra Credit
-If you opt to do extra credit, then include it here.
+I opt from extra credit in lab 2
