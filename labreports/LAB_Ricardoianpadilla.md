@@ -46,7 +46,7 @@ Serve Central is a proposal to a mobile application to centralize the applicatio
 |Log out|Show the user if they are sure they want to logout|user click confirm to logout|
 
 ## Step 2.3 Diagram a Use Case in Architectural Terms
-![Fork Diagram](cis411_lab2_arch/labreports/2.3 diagram.drawio.png)
+![Diagram](https://github.com/Ricardoianpadilla/cis411_lab2_arch/blob/6472a51a5cb3a7521a5f91c9b66648a6172a2d20/labreports/2.3%20diagram.drawio.png)
 # Step 3: Enhancing an Architecture
 
 ## Step 3.1 Architecture Change Proposal
@@ -62,10 +62,11 @@ Con:
 -Not great with handling large loads
 
 ## Step 3.2 Revised Architecture Diagram
-![Fork Diagram](cis411_lab2_arch/labreports/3.2 Revised Architecture Diagram.png)
+![Architecture Diagram](https://github.com/Ricardoianpadilla/cis411_lab2_arch/blob/6472a51a5cb3a7521a5f91c9b66648a6172a2d20/labreports/3.2%20Revised%20Architecture%20Diagram.png)
 
 # Step 4: Scaling an Architecture
 As the website grows, loads become larger and speed is a priority along with access to data and storage expansion. A flexible and fast data Architecture is needed. This is why I propose The Blackboard Architecture.Because UI interphase is tailored for volunteering only this simplifies the option that the UI haves making it faster and flexible when handling large loads of 10k+ users an hour. Also to further improve large numbers of users a broker can redirect users in a manner that creates faster times.Because blackboards are flexible when it comes to the data store that will quickly exceed 50TB of data we can simply add another database if needed. In addition, when it comes to users accessing statistical values for UI can be created to provide such data without compromising sensitive data. Lastly, when it comes to allowing authorized parties to issue queries to the database. Another UI can be created to simplify the process allowing direct access to the database with restriction of data changes based on rules.
+![Simplified Example](https://github.com/Ricardoianpadilla/cis411_lab2_arch/blob/6472a51a5cb3a7521a5f91c9b66648a6172a2d20/labreports/Untitled%20Diagram.drawio.png)
 
 # Extra Credit
 If you opt to do extra credit, then include it here.
