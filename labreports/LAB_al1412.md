@@ -66,7 +66,11 @@ Cons:
 
 
 # Step 4: Scaling an Architecture
-INSERT Architectural change proposal here, and how it meets the four new requirements.  Explain both the benefits and draw backs of your proposal.  If the changes are significant, then you need to explain why the changes are necessary versus a nice-to-have enhancement.
+As the website grows, loads become larger, and speed is a priority along with access to data and storage expansion. As a result, a flexible and fast data architecture is needed, which is why we propose the blackboard architecture.    
+
+Because the user interface (UI) is tailored for volunteering only, this simplifies the option that the UI has making it faster and flexible when handling large loads of 10,000 or more users an hour. To further improve large numbers of users, a broker can redirect users in a manner that creates faster times.    
+
+Because blackboards are flexible when it comes to the data store that will quickly exceed 50TB of data, we can simply add another database if needed. In addition, when it comes to users accessing statistics, statistical values for UI can be created to provide such data without compromising sensitive data. Lastly, when it comes to allowing authorized parties to issue queries to the database, another UI can be created to simplify the process, which allows direct access to the database with restriction of data changes based on the rules.    
 
 # Extra Credit
 If you opt to do extra credit, then include it here.
