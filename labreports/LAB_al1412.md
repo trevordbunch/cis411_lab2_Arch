@@ -53,7 +53,8 @@ Serve Central helps its users to find volunteer work through a mobile applicatio
 INSERT Architectural change proposal here, and how it meets the two new requirements.  Explain both the benefits and draw backs of your proposal.
 
 ## Step 3.2 Revised Architecture Diagram
-INSERT IMAGE HERE with a Description.
+![3 2 Revised Architecture Diagram drawio](https://user-images.githubusercontent.com/97567307/153790538-b6a934ab-542f-40f6-9e9b-e712ebfe6a6f.png)
+
 
 # Step 4: Scaling an Architecture
 INSERT Architectural change proposal here, and how it meets the four new requirements.  Explain both the benefits and draw backs of your proposal.  If the changes are significant, then you need to explain why the changes are necessary versus a nice-to-have enhancement.
