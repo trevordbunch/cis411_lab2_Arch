@@ -45,6 +45,7 @@ Serve Central is an all-in-one event registration solution which aims to grant i
 
 ## Step 2.3 Diagram a Use Case in Architectural Terms
 ![alt text](/assets/Use_Case_Architecture.drawio.svg)
+
 Details how a volunteer would go about signing up for a highway cleanup, as well as how it interacts with the view, model, controller, etc.
 
 # Step 3: Enhancing an Architecture
@@ -54,10 +55,11 @@ The new architectural pattern I would suggest is using the layered architectural
 
 ## Step 3.2 Revised Architecture Diagram
 ![alt text](/assets/Layered_Architecture.drawio.svg)
+
 Makes use of various layers for businesses to implement their specific interface implementations and access to other useful datasets.
 
 # Step 4: Scaling an Architecture
-INSERT Architectural change proposal here, and how it meets the four new requirements.  Explain both the benefits and draw backs of your proposal.  If the changes are significant, then you need to explain why the changes are necessary versus a nice-to-have enhancement.
 
-# Extra Credit
-If you opt to do extra credit, then include it here.
+The changes I propose are adopting a Peer-to-Peer Architectur, Load Balancing Broker, and Microservice based architecture. Peer-to-Peer would be useful to satisfy the sponsor's desire's and can be used to cut down on latency issues by having events(and other devices signed up for the event) within a certain distance of the user be used to update the interface, which would then be cross-referenced with a load balancing broker for consistency. Furthermore, the broker would then tie in with the microservice architecture, which would be used to traverse large, terabytes worth of data. Using microservice would also allow for examining patterns by seeing the changes made across the entire database by user and organizer input.
+
+These changes are needed because the previous two architectures are either too limited in their ability to store and access data, or could result in potential delays that would customer satisfaction. This is not without potential difficulties though, as both peer-to-peer and microservice require a rather significant amount of foresight and understanding of how they work in order to properly implement. The benefits of utilizing these patterns, however, warrant the difficulties due to the aforementioned benefits.
