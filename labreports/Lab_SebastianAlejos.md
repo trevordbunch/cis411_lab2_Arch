@@ -58,6 +58,7 @@ This is the use case for the Volunteers model.
 ## Step 3.1 Architecture Change Proposal
 
 ### Broker Architecture
+
 Broker archtecture is best suitable in this case as it is designed for service distribution. A pro is that it facilitates communication between entities. It also adds security when working with third parties (volunteer organizations). A con would be that a broker adds a layer to the architecture, which can slow down the system.
 
 ## Step 3.2 Revised Architecture Diagram
@@ -66,7 +67,8 @@ Broker archtecture is best suitable in this case as it is designed for service d
 
 # Step 4: Scaling an Architecture
 
-INSERT Architectural change proposal here, and how it meets the four new requirements.  Explain both the benefits and draw backs of your proposal.  If the changes are significant, then you need to explain why the changes are necessary versus a nice-to-have enhancement.
+Microservice seems to be the best architecture for this type of demand. A new service could be implemented for each of the new requierements. A service can be created to manage different loads at different times, keeping a low latency. Another service would be implemented to allow researchers access to the data that they need to find patterns. A disadvantage is that up front cost to implement is high as the services need to be developed. An advantage of this type of architecture is that it is easily scalable as new services can be added as needed.
 
 # Extra Credit
+
 If you opt to do extra credit, then include it here.
