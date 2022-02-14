@@ -47,10 +47,10 @@ Postconditions: "Help.org" needs a users information to operate
 
 | Model | View | Controller |
 |---|---|---|
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
+|The service in events in the database  | event page | user's are able to sign up for events |
+|user's account |  the login/ sign up page| Section for storing password and user information  |
+|reporting function| Information on the listed events | reports of event listed in our system |
+| Data receiving | recorded data from outside source | storing the data apropriately | 
 
 ## Step 2.3 Diagram a Use Case in Architectural Terms
 INSERT IMAGE HERE with a Description.
