@@ -3,13 +3,13 @@
 **Name:** Gloria Houngbeke
 **GitHub Handle:** GlorKemH
 **Repository:** GlorKemH/ cis411_lab2_arch
-**Collaborators:** 
+**Collaborators:**  ryandonat & issachhm
 ___
 
 # Step 1: Confirm Lab Setup
-- [ ] I have forked the repository and created my lab report
-- [ ] I have reviewed the [lecture / discsussion](../assets/04p1_SolutionArchitectures.pdf) on architecture patterns.
-- [ ] If I'm collaborating on this project, I have included their handles on the report and confirm that my report is informed, but not copied from my collaborators.
+- [X ] I have forked the repository and created my lab report
+- [X ] I have reviewed the [lecture / discsussion](../assets/04p1_SolutionArchitectures.pdf) on architecture patterns.
+- [ X] If I'm collaborating on this project, I have included their handles on the report and confirm that my report is informed, but not copied from my collaborators.
 
 # Step 2: Analyze the Proposal
 Serve Central ... ENTER A BASIC SYSTEM INTRODUCTION HERE (1-2 Sentences).
