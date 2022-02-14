@@ -56,12 +56,16 @@ This is the use case for the Volunteers model.
 # Step 3: Enhancing an Architecture
 
 ## Step 3.1 Architecture Change Proposal
-INSERT Architectural change proposal here, and how it meets the two new requirements.  Explain both the benefits and draw backs of your proposal.
+
+### Broker Architecture
+Broker archtecture is best suitable in this case as it is designed for service distribution. A pro is that it facilitates communication between entities. It also adds security when working with third parties (volunteer organizations). A con would be that a broker adds a layer to the architecture, which can slow down the system.
 
 ## Step 3.2 Revised Architecture Diagram
-INSERT IMAGE HERE with a Description.
+
+![Broker Architecture](/assets/broker.png)
 
 # Step 4: Scaling an Architecture
+
 INSERT Architectural change proposal here, and how it meets the four new requirements.  Explain both the benefits and draw backs of your proposal.  If the changes are significant, then you need to explain why the changes are necessary versus a nice-to-have enhancement.
 
 # Extra Credit
