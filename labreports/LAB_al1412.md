@@ -5,7 +5,7 @@ ___
 **Name:** Adam Lenker    
 **GitHub Handle:** @al1412  
 **Repository:** https://github.com/al1412/cis411_lab2_arch  
-**Collaborators:** Ricardo Padilla (@ricardoianpadilla)    
+**Collaborators:** Ricardo Padilla (@Ricardoianpadilla)    
 ___
 
 # Step 1: Confirm Lab Setup
@@ -74,3 +74,6 @@ Because blackboards are flexible when it comes to the data store that will quick
 
 # Extra Credit
 If you opt to do extra credit, then include it here.
+
+
+Pull request link: https://github.com/trevordbunch/cis411_lab2_arch/pull/40#issue-1136733099    
