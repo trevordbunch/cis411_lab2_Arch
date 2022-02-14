@@ -44,7 +44,8 @@ Serve Central helps its users to find volunteer work through a mobile applicatio
 | Log out | Displays a message asking the user if they are sure they want to log out after clicking the log out button | Checks if the user really wants to log out of Serve Central or not |
 
 ## Step 2.3 Diagram a Use Case in Architectural Terms
-INSERT IMAGE HERE with a Description.
+![2 3 diagram drawio (1)](https://user-images.githubusercontent.com/97567307/153784356-c4e5be6f-f658-434b-89a3-f517d591fc16.png)
+
 
 # Step 3: Enhancing an Architecture
 
