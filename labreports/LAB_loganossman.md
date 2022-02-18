@@ -48,7 +48,7 @@ Serve Central is an application meant to post and locate places in need of volun
 | Event Entity | Map Screen | Register for Event Code |
 
 ## Step 2.3 Diagram a Use Case in Architectural Terms
-[MVC Diagram](assets/MVC_Diagram.png)
+[MVC Diagram](../assets/MVC_Diagram.png)
 
 # Step 3: Enhancing an Architecture
 
@@ -56,7 +56,7 @@ Serve Central is an application meant to post and locate places in need of volun
 Moving from MVC, the best architecture to change to would be a Microservices setup. It allows us to scale with incredible efficiency, which will help streamline the speed of inputing and retrieving data. This especially makes sure that small volunteer accounts do not take up too much data. A Microservices architecture will also allow for easy embedded integration with our provided API services. Finally, should we grow at an incredible rate, it is a good base for growth. The only difficulty is tracking and joining data between the app and embedded services. However, the larger companies would likely have accounts on each, so it is an easy issue to fix.
 
 ## Step 3.2 Revised Architecture Diagram
-[Microservices Diagram](assets/Microservices_Example_Diagram.png)
+[Microservices Diagram](../assets/Microservices_Example_Diagram.png)
 
 # Step 4: Scaling an Architecture
 Thankfully, most of the new requirements needed in this part are covered by the Microservices architecture. This fast load time and scalability easily knock out the first and second requirements. However, the third and fourth are difficult requirements to achieve with Microservices alone. To accomplish this, the system will become a Microservices/Client-Server hybrid. Most operations will be done on the Microservice end of things, although large-scale queries and views need a centralized location that is lacking in a regular Microservices system. As such, the best solution would be for a central database to store as much data as possible to streamline the queries needed for researchers and authorized parties.
