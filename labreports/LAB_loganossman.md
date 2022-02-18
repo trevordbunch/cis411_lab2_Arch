@@ -21,60 +21,31 @@ Serve Central is an application meant to post and locate places in need of volun
 | Use Case #1 | |
 |---|---|
 | Title | Search for Volunteer Opportunities |
-| Description / Steps | 
-
-1. User will enter parameters for the distance and type of events.
-2. User will sign up for certain events with more credentials.
-3. User will use the app to make their way to the event.
-
-|
+| Description / Steps | 1. User will enter parameters for the distance and type of events. <br />2. User will sign up for certain events with more credentials. <br /> 3. User will use the app to make their way to the event. |
 | Primary Actor | Potential Volunteer |
-| Preconditions | 
+| Preconditions | 1. The user has created a login, and is verified upon logging in. <br /> 2. The system is not down for maintenance.|
+| Postconditions | 1. User is not flagged for certain events. <br /> 2. Event requires another worker. <br /> 3. Event hosts accept the user as an event worker. |
 
-1. The user has created a login, and is verified upon logging in.
-2. The system is not down for maintenance.
-
-|
-| Postconditions | 
-
-1. User is not flagged for certain events.
-2. Event requires another worker.
-3. Event hosts accept the user as an event worker.
-
-|
+<br />
 
 | Use Case #2 | |
 |---|---|
 | Title | Create an Event |
-| Description / Steps | 
-
-1. User will create an event with a location and a description.
-2. User will designate whether the event is private or public.
-3. User will invite particular individuals through the app to work the event.
-
-|
+| Description / Steps | 1. User will create an event with a location and a description. <br /> 2. User will designate whether the event is private or public. <br /> 3. User will invite particular individuals through the app to work the event. |
 | Primary Actor | Potential Hosts |
-| Preconditions | 
+| Preconditions | 1. The user has created a login, and is verified upon logging in. <br />2. The system is not down for maintenance.|
+| Postconditions | 1. User is not flagged for any type of event. <br /> 2. Event has all required fields filled in, otherwise it will be saved as a draft.|
 
-1. The user has created a login, and is verified upon logging in.
-2. The system is not down for maintenance.
-
-|
-| Postconditions | 
-
-1. User is not flagged for any type of event.
-2. Event has all required fields filled in, otherwise it will be saved as a draft.
-
-|
+<br />
 
 ## Step 2.2 Define the MVC Components
 
 | Model | View | Controller |
 |---|---|---|
-| Firebase | Login Screen | ReactNative |
-| Users Database | Settings Screen | NodeJS |
-| Google Cloud | Events Creation Screen | PHP |
-| Events Database | Map Screen | Javascript |
+| Account Entity | Login Screen | Login Acceptance Code |
+| Location Entity | Settings Screen | Google Maps API Code |
+| Organization Entity | Events Creation Screen | Update Available Events Code |
+| Event Entity | Map Screen | Register for Event Code |
 
 ## Step 2.3 Diagram a Use Case in Architectural Terms
 [MVC Diagram](assets/MVC_Diagram.png)
