@@ -3,7 +3,7 @@
 # Step 0: Create a GitHub account
 1. If you don't have a GitHub account already, [create one](https://github.com/join). If you do, **record the name of your handle in your lab report** and **record a link to one repository you either follow or star**.
 2. If you don't already have _git_ installed on your development machine, [do so](https://git-scm.com/downloads).
-3. Install a text editor or some sort of application for local development. Lately, I'm partial to [Visual Studio Code](https://code.visualstudio.com/) and my instructions assume it's use, but you're welcome to diviate. _Each one should choose their own sword, etc. etc._
+3. Install a text editor or some sort of application for local development. Lately, I'm partial to [Visual Studio Code](https://code.visualstudio.com/) and my instructions assume it's use, but you're welcome to deviate. _Each one should choose their own sword, etc. etc._
 
 # Step 1: Fork this repository and create your lab report file
 1. After logging in, navigate to the [root](https://github.com/trevordbunch/cis411_lab2_arch) of this repository.
@@ -11,7 +11,7 @@
 3. Navigate to your forked repository in your GitHub account and copy the reference to your repository in from the <button class="btn btn-sm btn-primary">Clone or Download</button> button.
 4. Open the terminal or command line interface on your development machine, navigate to your chosen working directory, and execute the following command: ```git clone [YOUR COPIED GITHUB CLONE REFERENCE]```.
 5. Navigate to that directory ```cd cis411_lab2_arch```.
-6. Create a lab report mardown file (ex. ```cp labreports/LAB_Template.md labreports/LAB_[GITHUB USERNAME].md``` ).
+6. Create a lab report markdown file (ex. ```cp labreports/LAB_Template.md labreports/LAB_[GITHUB USERNAME].md``` ).
 7. Add your lab report ```git add *```
 8. Add the file to your branch ```git commit -a -m "your commit message"```.
 9. Push the change to GitHub ```git push -u origin main```.
@@ -46,11 +46,11 @@ _Note: You are free to use any diagraming tool and framework that you want as lo
 # Step 3: Architecture Enhancement
 After an initial release and a few months of operation, Serve Central encounters a tremendous growth opportunity to extend their service and provide a volunteer recruitment and management interface to __four__ of the primary volunteer entities in the United States. As such, a reevaluation of the architecture is required, one that allows:
 
-1. Thirdparty services to both input and retrieve data from the Serve Central model/datastore. (For instance, receiving volunteer opportunities from United Way chapters across the country.)
+1. Third party services to both input and retrieve data from the Serve Central model/datastore. (For instance, receiving volunteer opportunities from United Way chapters across the country.)
 2. Building organization-specific interfaces on top of the Serve Central business and data logic. (For instance, allowing the registration services of Serve Central to be embedded in the website of local churches, [ah-la Stripe embedding](https://stripe.com/payments/elements).)
 
 To support these objectives:
-1. What architectural patterns (either of those presented in class on based on your own research) are appropriate? Justify your response, highlighting your presumed benefits / capabilties of your chosen architecture(s) **as well as as least one potential issue / adverse consequence** of your choice.
+1. What architectural patterns (either of those presented in class on based on your own research) are appropriate? Justify your response, highlighting your presumed benefits / capabilities of your chosen architecture(s) **as well as as least one potential issue / adverse consequence** of your choice.
 2. Using your preferred diagramming tool, generate a diagram of the new Serve Central architecture that supports these two new requirements.
 
 # Step 4: Scaling an Architecture
@@ -63,7 +63,7 @@ In addition to building a new mobile application interface, the grant requires t
 3. Allowing authorized parties to issue queries that traverse the TB's of data stored in your datastore(s).
 4. Enabling researchers to examine patterns of volunteer opportunities as a way of determining future grant investments.
 
-What archictural pattern(s) will you employ to support each of these needs? What will the benefits and consequences be? Why are changes needed at all? Justify your answers.
+What architectural pattern(s) will you employ to support each of these needs? What will the benefits and consequences be? Why are changes needed at all? Justify your answers.
 
 # Step 5: Submitting a Pull Request
 Once you've completed your report markdown, reviewed your markdown formatting, and have committed all your changes to your (primary) main branch, initiate a Pull Request in GitHub to submit your Lab Report.
