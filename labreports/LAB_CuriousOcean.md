@@ -22,15 +22,15 @@ ___
 | Use Case #1 | |
 |---|---|
 | Title | Service Agency - Posting a Volunteer Listing |
-| Description / Steps | As a service agency, I want to post my service event so that potential voluneeters can see my event and help<ul> <li> 1. Owner of Service agency navigates to app and clicks on "Post Event" </li><li> 2. User fills out information pertaining to event, such as how many people are needed and what kind of work is expected. </li> <li> 3. User clicks post and the event is posted <ul> |
+| Description / Steps | As a service agency, I want to post my service event so that potential voluneeters can see my event and help<ol> <li> Owner of Service agency navigates to app and clicks on "Post Event" </li><li> User fills out information pertaining to event, such as how many people are needed and what kind of work is expected. </li> <li> User clicks post and the event is posted <ul> |
 | Primary Actor | Service Agency |
-| Preconditions | <ul> <li> Account Created for User</li> <li> There are users nearby that see the event  |
+| Preconditions | <ol> <li> Account Created for User</li> <li> There are users nearby that see the event  |
 | Postconditions | User is informed about who is volunteering and reserves the right to decline their services  |
 
 | Use Case #2 | |
 |---|---|
 | Title | Volunteer - Signing Up for Volunteer Listing |
-| Description / Steps | I want to sign up for events to volunteer. <ul> <li> 1. User navigates to "Map" feature </li> <li> 2. Nearby volunteer opportunities are displayed, showing the distance from their location to the event. </li> <li> 3. User click on the icon and is displayed what type of event, what kind of services, and how many more volunteers are need. </li> <li> 4. After reading, the user has the option of clicking the "Sign me Up!" button or going back to select a different event. </li>  |
+| Description / Steps | I want to sign up for events to volunteer. <ol> <li> User navigates to "Map" feature </li> <li> Nearby volunteer opportunities are displayed, showing the distance from their location to the event. </li> <li> User click on the icon and is displayed what type of event, what kind of services, and how many more volunteers are need. </li> <li> After reading, the user has the option of clicking the "Sign me Up!" button or going back to select a different event. </li>  |
 | Primary Actor |Volunteer |
 | Preconditions | There are nearby events looking for volunteers.  |
 | Postconditions | User is emailed a reminder about the event so they do not forget.  |
