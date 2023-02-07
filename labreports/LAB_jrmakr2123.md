@@ -4,7 +4,7 @@ ___
 **Instructor(s):** [Trevor Bunch](https://github.com/trevordbunch)  
 **Name:** Jonah Robinson  
 **GitHub Handle:** jrmakr2123  
-**Repository:** [https://github.com/jrmakr2123/cis411_lab2_arch](https://github.com/jrmakr2123/cis411_lab2_arch)
+**Repository:** [https://github.com/jrmakr2123/cis411_lab2_arch](https://github.com/jrmakr2123/cis411_lab2_arch)  
 **Collaborators:** someone else
 ___
 
@@ -18,30 +18,30 @@ Serve Central ... ENTER A BASIC SYSTEM INTRODUCTION HERE (1-2 Sentences).
 
 ## Step 2.1 Representative Use Cases  
 
-| Use Case #1 | |
-|---|---|
-| Title | |
-| Description / Steps | |
-| Primary Actor | |
-| Preconditions | |
-| Postconditions | |
+| Use Case #1         |     |
+| ------------------- | --- |
+| Title               |     |
+| Description / Steps |     |
+| Primary Actor       |     |
+| Preconditions       |     |
+| Postconditions      |     |
 
-| Use Case #2 | |
-|---|---|
-| Title | |
-| Description / Steps | |
-| Primary Actor | |
-| Preconditions | |
-| Postconditions | |
+| Use Case #2         |     |
+| ------------------- | --- |
+| Title               |     |
+| Description / Steps |     |
+| Primary Actor       |     |
+| Preconditions       |     |
+| Postconditions      |     |
 
 ## Step 2.2 Define the MVC Components
 
 | Model | View | Controller |
-|---|---|---|
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
+| ----- | ---- | ---------- |
+|       |      |            |
+|       |      |            |
+|       |      |            |
+|       |      |            |
 
 ## Step 2.3 Diagram a Use Case in Architectural Terms
 INSERT IMAGE HERE with a Description.
