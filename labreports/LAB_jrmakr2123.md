@@ -2,10 +2,10 @@
 ___
 **Course:** CIS 411, Spring 2021  
 **Instructor(s):** [Trevor Bunch](https://github.com/trevordbunch)  
-**Name:** Your Name  
-**GitHub Handle:** Your GitHub Handle  
-**Repository:** Your Forked Repository  
-**Collaborators:** 
+**Name:** Jonah Robinson  
+**GitHub Handle:** jrmakr2123  
+**Repository:** [https://github.com/jrmakr2123/cis411_lab2_arch](https://github.com/jrmakr2123/cis411_lab2_arch)
+**Collaborators:** someone else
 ___
 
 # Step 1: Confirm Lab Setup
