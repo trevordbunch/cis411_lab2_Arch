@@ -2,9 +2,10 @@
 ___
 **Course:** CIS 411, Spring 2021  
 **Instructor(s):** [Trevor Bunch](https://github.com/trevordbunch)  
-**Name:** Your Name  
-**GitHub Handle:** Your GitHub Handle  
-**Repository:** Your Forked Repository  
+**Name:** Shane Wahlberg  
+**GitHub Handle:** CuriousOcean 
+**Repository:**(https://github.com/CuriousOcean/cis411_lab2_arch)
+
 **Collaborators:** 
 ___
 
@@ -14,7 +15,7 @@ ___
 - [ ] If I'm collaborating on this project, I have included their handles on the report and confirm that my report is informed, but not copied from my collaborators.
 
 # Step 2: Analyze the Proposal
-Serve Central ... ENTER A BASIC SYSTEM INTRODUCTION HERE (1-2 Sentences).
+**Server Central Description**: Severe Central is a moblie app that allows users to quickly find events that are in need of volunteers. On the app, users can see how far, what kind of event, what kind of volunteers are needed, and they can keep track of what kind of work they've done and for how long. 
 
 ## Step 2.1 Representative Use Cases  
 
