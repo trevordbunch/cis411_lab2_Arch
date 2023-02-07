@@ -45,7 +45,7 @@ ___
 | Email | Post a event tab | Tell volunteer profile the amount of hours and what type of events they have volunteered for overall |
 
 ## Step 2.3 Diagram a Use Case in Architectural Terms
-INSERT IMAGE HERE with a Description.
+![assets](../assets/UseCase.drawio.png)
 
 # Step 3: Enhancing an Architecture
 
