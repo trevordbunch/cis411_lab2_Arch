@@ -39,10 +39,10 @@ ___
 
 | Model | View | Controller |
 |---|---|---|
-|  | Sign in Page | Email users reminder about event signed up for |
-|  | Map with Nearby Events | Notify service provider who has volunteered |
-|  | Profile for volunteer and service | Take down volunteer option once event has filled up |
-|  | Post a event tab |  |
+| Profile | Sign in Page | Email users reminder about event signed up for |
+| Map | Map with Nearby Events | Notify service provider who has volunteered |
+| Event | Profile for volunteer and service | Take down volunteer option once event has filled up |
+| Email | Post a event tab | Tell volunteer profile the amount of hours and what type of events they have volunteered for overall |
 
 ## Step 2.3 Diagram a Use Case in Architectural Terms
 INSERT IMAGE HERE with a Description.
