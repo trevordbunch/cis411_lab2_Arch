@@ -1,38 +1,38 @@
 # Lab Report: Continuous Integration
 ___
-**Course:** CIS 411, Spring 2021  
+**Course:** CIS 411, Spring 2023  
 **Instructor(s):** [Trevor Bunch](https://github.com/trevordbunch)  
-**Name:** Your Name  
-**GitHub Handle:** Your GitHub Handle  
-**Repository:** Your Forked Repository  
+**Name:** Grace Taylor  
+**GitHub Handle:** gracet712 
+**Repository:** https://github.com/gracet712/cis411_lab2_arch 
 **Collaborators:** 
 ___
 
 # Step 1: Confirm Lab Setup
-- [ ] I have forked the repository and created my lab report
-- [ ] I have reviewed the [lecture / discsussion](../assets/04p1_SolutionArchitectures.pdf) on architecture patterns.
-- [ ] If I'm collaborating on this project, I have included their handles on the report and confirm that my report is informed, but not copied from my collaborators.
+- [X] I have forked the repository and created my lab report
+- [X] I have reviewed the [lecture / discsussion](../assets/04p1_SolutionArchitectures.pdf) on architecture patterns.
+- [X] If I'm collaborating on this project, I have included their handles on the report and confirm that my report is informed, but not copied from my collaborators.
 
 # Step 2: Analyze the Proposal
-Serve Central ... ENTER A BASIC SYSTEM INTRODUCTION HERE (1-2 Sentences).
+Serve Central is an app designed to offer information about and registration for volunteer events in a single, centralized location. It also provides statistics for volunteers regarding past events they participated in.
 
 ## Step 2.1 Representative Use Cases  
 
 | Use Case #1 | |
 |---|---|
-| Title | |
-| Description / Steps | |
-| Primary Actor | |
-| Preconditions | |
-| Postconditions | |
+| Title |Event Registration - Volunteer |
+| Description / Steps |1. The user navigates to the Event List webpage and selects an event.<br/> 2. The user selects ```Register for Event```.<br/>3. The user submits a form containing additional fields the Service Agency requires that are not already associated with the user's account.<br/> 4. The form validates that all required fields are filled.<br/>5. An email is sent to the Service Agency informing them of the new volunteer.<br/>6. The web page generates confirmation that the user is registered for the event and sends the user a confirmation email. <br/>7. The user is redirected to the home page. |
+| Primary Actor |Volunteer |
+| Preconditions |1. The user has an account. <br/> 2. The user is logged in. |
+| Postconditions |1. The user is registered for the event in Service Central's systems.<br/>2. The user receives a confirmation email regarding their registration.<br/>3.The Service Agency associated with the event receives an email informing them of the user's registration. |
 
 | Use Case #2 | |
 |---|---|
-| Title | |
-| Description / Steps | |
-| Primary Actor | |
-| Preconditions | |
-| Postconditions | |
+| Title |Create Eent - Service Agency |
+| Description / Steps |1. The user selects ```Create Event``` on their home page.<br/>2. The user completes an Event Creation form (event title, category, date, time, location, description, max number of volunteers, registration cutoff date, and additional information required from volunteers).<br/>3. The form validates that all required fields (title, date/time/location, max number volunteers) is filled out.<br/>4. The webpage confirms that the event has been created, and a confirmation email is sent to the user.<br/>5. The user is redirected to their home page. |
+| Primary Actor |Service Agency |
+| Preconditions |1. The Service Agency has an account.<br/>2. The Service Agency is logged in. |
+| Postconditions |1. The new event is created in Service Central's systems and displayed to users (volunteers) who enter appropriate search criteria.<br/>2. The Service Agency receives a confirmation email regarding the event's creation. |
 
 ## Step 2.2 Define the MVC Components
 
