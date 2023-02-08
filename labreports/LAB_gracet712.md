@@ -44,10 +44,11 @@ Serve Central is an app designed to offer information about and registration for
 |Statistics Database - contains aggregated information on all Volunteers' and Service Agencies' completed events |Wepage displays overall statistics for Service Center's users  |Runs predefined queries on the database and returns graphics for wepage to display  |
 
 ## Step 2.3 Diagram a Use Case in Architectural Terms
+
 ![Use Case for Volunteer Viewing Event List](/assets/Use_Case_Architectural_Terms.jpg)
 
 **Description:**
-   
+
 The above diagram shows the interaction between an actor (volunteer) and the models, view, and controller necessary to allow the user to view an appropriate list of volunteer events. In 8 steps, it demonstrates how the user inputs search criteria on a webpage (view) which are then processed by a controller. The controller queries the database (model) for appropriate events and returns a list to the view, which displays them for the user.
 
 # Step 3: Enhancing an Architecture
@@ -55,8 +56,16 @@ The above diagram shows the interaction between an actor (volunteer) and the mod
 ## Step 3.1 Architecture Change Proposal
 INSERT Architectural change proposal here, and how it meets the two new requirements.  Explain both the benefits and draw backs of your proposal.
 
+One architectural pattern that would help meet these two new requirements is the load balancing architecture model. This supports the first new requirement by providing a way to support a large number of users, as third-party services input and retrieve large volumes of data and many more volunteers begin using the service. The second requirement can be supported by designing the load balancing architecture model in such a way that the web interface can be embedded in another website and still securely send user input back to Service Center's servers. A drawback is the expensive infrastructure required to maintain a load balancing model and the complex requirements to make sure the main/helper databases and replicated web servers are always synced.
+
 ## Step 3.2 Revised Architecture Diagram
-INSERT IMAGE HERE with a Description.
+![Revised Architecture Diagram - load balancing](/assets/lab2_architecture_diagram.jpg)
+
+**Description:**
+
+The above diagram presents a load-balancing architecture that would help support the requirement for third-party services to input and retrieve large volumes of data, as well as increased usage from volunteers. It also demonstrates how certain components, such as the form for registratration services, could be isolated to allow it to be embedded in other websites. In this diagram, both the web servers and databases are replicated to allow for load balancing.
+
+
 
 # Step 4: Scaling an Architecture
 INSERT Architectural change proposal here, and how it meets the four new requirements.  Explain both the benefits and draw backs of your proposal.  If the changes are significant, then you need to explain why the changes are necessary versus a nice-to-have enhancement.
