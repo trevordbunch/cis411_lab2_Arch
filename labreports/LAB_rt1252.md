@@ -89,5 +89,12 @@ For example, the availability of the submitted opportunity would be one service,
 Another architecture would need to be implemented as well to make sure that these requirements can be met. I ensure that these services are properly load balanced with appropriate resources making sure that the services do not become overwhelmed. Ideally the load balancer would be able to dynamically scale up or down depending on demand. 
 
 # Extra Credit
-Extra credit diagram of final architecture:
+1. Extra credit diagram of final architecture:
 ![Extra credit diagram 1](/assets/ec_1.png)
+
+2. Step 5: Submitting a pull request has instructions from a previous assignment:
+   
+   What step 5, part 3 currently says: "Choose the base fork tangollama/cis411_lab0 is the target and that your fully updated main branch is the source."
+
+   What step 5, part 3 should say: "Choose the base fork trevordbunch/cis411_lab2_arch is the target and that your fully updated main branch is the source."
+
