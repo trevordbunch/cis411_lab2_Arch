@@ -38,10 +38,10 @@ Serve Central is an app designed to offer information about and registration for
 
 | Model | View | Controller |
 |---|---|---|
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
+| Databse of events (contains information such as event title, cateogry, location, date/time, max # volunteers, required volunteer information, registration cutoff date, description, associated Service Agency, etc.) |Event List Webpage (accepts search criteria and displays list of events to users)  |Processes input search criteria (ex: location, category, date, etc.) and returns a list of events that match those criteria  |
+|Database of Volunteer accounts (contains information such as names, email, password hash, event registration, etc.)  |Sign-up / Login Webpages for Volunteers  |For sign-up: Processes input data on sign-up form, validates it, and adds to the database; returns confirmation<br/><br/>For login: Processes input email and password, finds account in database, and initiates session  |
+|Database of Service Agency accounts (contains information such as name, contact name, email, password hash, etc.)  |Sign-up / Login Wepages for Service Agencies  |For sign-up: Processes input data on sign-up form, validates it, and adds to the database; returns confirmation<br/><br/>For login: Processes input email and password, finds account in database, and initiates session  |
+|Statistics Database - contains aggregated information on all Volunteers' and Service Agencies' completed events |Wepage displays overall statistics for Service Center's users  |Runs predefined queries on the database and returns graphics for wepage to display  |
 
 ## Step 2.3 Diagram a Use Case in Architectural Terms
 INSERT IMAGE HERE with a Description.
