@@ -44,7 +44,11 @@ Serve Central is an app designed to offer information about and registration for
 |Statistics Database - contains aggregated information on all Volunteers' and Service Agencies' completed events |Wepage displays overall statistics for Service Center's users  |Runs predefined queries on the database and returns graphics for wepage to display  |
 
 ## Step 2.3 Diagram a Use Case in Architectural Terms
-INSERT IMAGE HERE with a Description.
+![Use Case for Volunteer Viewing Event List](/assets/Use_Case_Architectural_Terms.jpg)
+
+**Description:**
+   
+The above diagram shows the interaction between an actor (volunteer) and the models, view, and controller necessary to allow the user to view an appropriate list of volunteer events. In 8 steps, it demonstrates how the user inputs search criteria on a webpage (view) which are then processed by a controller. The controller queries the database (model) for appropriate events and returns a list to the view, which displays them for the user.
 
 # Step 3: Enhancing an Architecture
 
