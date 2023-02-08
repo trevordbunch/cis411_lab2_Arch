@@ -3,8 +3,8 @@ ___
 **Course:** CIS 411, Spring 2023  
 **Instructor(s):** [Trevor Bunch](https://github.com/trevordbunch)  
 **Name:** Grace Taylor  
-**GitHub Handle:** gracet712 
-**Repository:** https://github.com/gracet712/cis411_lab2_arch 
+**GitHub Handle:** gracet712   
+**Repository:** https://github.com/gracet712/cis411_lab2_arch     
 **Collaborators:** 
 ___
 
@@ -28,7 +28,7 @@ Serve Central is an app designed to offer information about and registration for
 
 | Use Case #2 | |
 |---|---|
-| Title |Create Eent - Service Agency |
+| Title |Create Event - Service Agency |
 | Description / Steps |1. The user selects ```Create Event``` on their home page.<br/>2. The user completes an Event Creation form (event title, category, date, time, location, description, max number of volunteers, registration cutoff date, and additional information required from volunteers).<br/>3. The form validates that all required fields (title, date/time/location, max number volunteers) is filled out.<br/>4. The webpage confirms that the event has been created, and a confirmation email is sent to the user.<br/>5. The user is redirected to their home page. |
 | Primary Actor |Service Agency |
 | Preconditions |1. The Service Agency has an account.<br/>2. The Service Agency is logged in. |
@@ -68,7 +68,10 @@ The above diagram presents a load-balancing architecture that would help support
 
 
 # Step 4: Scaling an Architecture
-INSERT Architectural change proposal here, and how it meets the four new requirements.  Explain both the benefits and draw backs of your proposal.  If the changes are significant, then you need to explain why the changes are necessary versus a nice-to-have enhancement.
+
+Meeting these requirements will require a load balancing architectural model in order to support so many users. Multiple replicated databases will be required to allow for constant, and sometimes resource-intensive, queries from users. Additionally, multiple backend servers will be required to support the increased traffic between users and the servers. This could also be considered a main/helper or parent/child architectural model - essentially, one in which clients interact with a load balancer that redirects data to multiple backend servers, which in turn interact with multiple replicated databases. The changes are necessary to support the increased load on the system - otherwise, processing 10k requests per hour (req. 1) and enabling resource-intensive queries (req. 3 & 4) would likely be impossible.
+
+There will be two main drawbacks to this model. First, replicated databases will make it more diffiult to fulfill the requirement to make new volunteer opportunities available for registration within 15 seconds (req. 1), as the data will need to be copied to all replicated databases. Second, replicated databases will also make it more expensive to store over 50 TB of data (req. 2). Both of these drawbacks are matters of expense - it will cost money to replicate so much data and invest in fast communications between the systems, but it will be worth it to achieve the load balancing needed to support the increased usage of the application.
 
 # Extra Credit
 If you opt to do extra credit, then include it here.
