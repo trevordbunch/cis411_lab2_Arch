@@ -89,5 +89,5 @@ For example, the availability of the submitted opportunity would be one service,
 Another architecture would need to be implemented as well to make sure that these requirements can be met. I ensure that these services are properly load balanced with appropriate resources making sure that the services do not become overwhelmed. Ideally the load balancer would be able to dynamically scale up or down depending on demand. 
 
 # Extra Credit
-Extra credit diagram
+Extra credit diagram of final architecture:
 ![Extra credit diagram 1](/assets/ec_1.png)
