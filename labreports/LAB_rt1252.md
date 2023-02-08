@@ -5,13 +5,13 @@ ___
 **Name:** Ray Truex  
 **GitHub Handle:** rt1252  
 **Repository:** [Your Forked Repository](https://github.com/rt1252/cis411_lab2_arch)  
-**Collaborators:** 
+**Collaborators:** NA
 ___
 
 # Step 1: Confirm Lab Setup
-- [ ] I have forked the repository and created my lab report
-- [ ] I have reviewed the [lecture / discsussion](../assets/04p1_SolutionArchitectures.pdf) on architecture patterns.
-- [ ] If I'm collaborating on this project, I have included their handles on the report and confirm that my report is informed, but not copied from my collaborators.
+- [x] I have forked the repository and created my lab report
+- [x] I have reviewed the [lecture / discsussion](../assets/04p1_SolutionArchitectures.pdf) on architecture patterns.
+- [x] If I'm collaborating on this project, I have included their handles on the report and confirm that my report is informed, but not copied from my collaborators.
 
 # Step 2: Analyze the Proposal
 Serve Central is an app that connects volunteers with events needing volunteers. All event data is handled in app from finding the event to signing up for the event to volunteer at.
@@ -82,7 +82,12 @@ The new architecture meeting the two new requirements described above using the 
 ![Diagram of the new Serve Central architecture](../assets/3_2_1.png)
 
 # Step 4: Scaling an Architecture
-INSERT Architectural change proposal here, and how it meets the four new requirements.  Explain both the benefits and draw backs of your proposal.  If the changes are significant, then you need to explain why the changes are necessary versus a nice-to-have enhancement.
+I still think that using microservice architecture is the best way to meet the future needs of the grant. New services can be added for each requirement ensuring that services are separated from each other allowing the requirements to be met.
+
+For example, the availability of the submitted opportunity would be one service, another service would be increased database servers, another service would be for examining patterns.
+
+Another architecture would need to be implemented as well to make sure that these requirements can be met. I ensure that these services are properly load balanced with appropriate resources making sure that the services do not become overwhelmed. Ideally the load balancer would be able to dynamically scale up or down depending on demand. 
 
 # Extra Credit
-If you opt to do extra credit, then include it here.
+Extra credit diagram
+![Extra credit diagram 1](/assets/ec_1.png)
