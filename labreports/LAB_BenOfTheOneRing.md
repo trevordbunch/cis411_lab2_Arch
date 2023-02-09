@@ -67,7 +67,7 @@ Serve Central is a web and mobile app that allows users to find and register for
 |Database server|direct database UI|Direct database UI|
 
 ## Step 2.3 Diagram a Use Case in Architectural Terms
-![Use Case](\../assets\UseCase.svg)
+![Use Case](/assets/UseCase.svg)
 The web app html sends display info via a GUI to the user. The user sends input info back to the web app. Sends the input to the server. The server sends a data request to the database. The database sends data which is then converted by the server and sent to the web app. The web app then displays the info. 
 
 # Step 3: Enhancing an Architecture
