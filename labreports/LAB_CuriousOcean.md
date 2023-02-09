@@ -1,4 +1,4 @@
-# Lab Report: Continuous Integration
+# Lab Report: Architecture
 ___
 **Course:** CIS 411, Spring 2021  
 **Instructor(s):** [Trevor Bunch](https://github.com/trevordbunch)  
