@@ -67,7 +67,7 @@ Serve Central is a web and mobile app that allows users to find and register for
 |Database server|direct database UI|Direct database UI|
 
 ## Step 2.3 Diagram a Use Case in Architectural Terms
-![Use Case](assets\UseCase.svg)
+![Use Case](\../assets\UseCase.svg)
 The web app html sends display info via a GUI to the user. The user sends input info back to the web app. Sends the input to the server. The server sends a data request to the database. The database sends data which is then converted by the server and sent to the web app. The web app then displays the info. 
 
 # Step 3: Enhancing an Architecture
@@ -80,7 +80,7 @@ The main issue this architecture would present would be scalability. If the orga
 
 
 ## Step 3.2 Revised Architecture Diagram
-![Architecture Revised](assets\ArchRevised.svg)
+![Architecture Revised](\../assets/ArchRevised.svg)
 The users provide information or requests for data to the main or organization specific interfaces. Those interfaces send requests for data or data itself to the server. The server sends data and requests to the database. After receiving the data back, the server then sends that info back to the interfaces. 
 # Step 4: Scaling an Architecture
 Because we already have an ingrained client-server based architecture, we will continue with that strategy but switch to a XaaS model.  
