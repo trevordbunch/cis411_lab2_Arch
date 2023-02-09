@@ -73,8 +73,9 @@ The web app html sends display info via a GUI to the user. The user sends input 
 # Step 3: Enhancing an Architecture
 
 ## Step 3.1 Architecture Change Proposal
-I propose a Client sever architecture. 
-This architecture will allow for a single collection of data in a single datastore which will allow third party services to easily input and receive data from the entire database. The Organization specific interfaces can also be simply added to the server. 
+I propose a Client sever architecture.    
+
+This architecture will allow for a single collection of data in a single datastore which will allow third party services to easily input and receive data from the entire database. The Organization specific interfaces can also be simply added to the server.  
 The main issue this architecture would present would be scalability. If the organization is growing swiftly then it may be hard to keep up with demand. 
 
 
