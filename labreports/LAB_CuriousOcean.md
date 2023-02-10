@@ -50,12 +50,11 @@ ___
 # Step 3: Enhancing an Architecture
 
 ## Step 3.1 Architecture Change Proposal
-INSERT Architectural change proposal here, and how it meets the two new requirements.  Explain both the benefits and draw backs of your proposal.
-I believe that implementing the Microservice Architecture would meet the desired requirements. It's ability to leverage brokered communication would allow it to support adding third party services and connecting to other websites like churches or nonprofits. 
-However, the recombination of all the layers could be time-consuming and difficult. 
+I believe that implementing the Microservice Architecture would meet the desired requirements. It's ability to leverage brokered communication would allow it to support adding third party services and connecting to other websites like churches or nonprofits. However, the recombination of all the layers could be time-consuming and difficult. 
 
 ## Step 3.2 Revised Architecture Diagram
-INSERT IMAGE HERE with a Description.
+![assets](../assets/microservice.drawio.png)
+New Use-Case Diagram
 
 # Step 4: Scaling an Architecture
 INSERT Architectural change proposal here, and how it meets the four new requirements.  Explain both the benefits and draw backs of your proposal.  If the changes are significant, then you need to explain why the changes are necessary versus a nice-to-have enhancement.
