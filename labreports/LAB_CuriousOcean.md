@@ -51,6 +51,8 @@ ___
 
 ## Step 3.1 Architecture Change Proposal
 INSERT Architectural change proposal here, and how it meets the two new requirements.  Explain both the benefits and draw backs of your proposal.
+I believe that implementing the Microservice Architecture would meet the desired requirements. It's ability to leverage brokered communication would allow it to support adding third party services and connecting to other websites like churches or nonprofits. 
+However, the recombination of all the layers could be time-consuming and difficult. 
 
 ## Step 3.2 Revised Architecture Diagram
 INSERT IMAGE HERE with a Description.
