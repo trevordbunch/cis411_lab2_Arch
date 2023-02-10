@@ -57,7 +57,16 @@ I believe that implementing the Microservice Architecture would meet the desired
 New Use-Case Diagram
 
 # Step 4: Scaling an Architecture
-INSERT Architectural change proposal here, and how it meets the four new requirements.  Explain both the benefits and draw backs of your proposal.  If the changes are significant, then you need to explain why the changes are necessary versus a nice-to-have enhancement.
+Upon reviewing the new requirements to qualify for the Gates Foundation grant, I still believe that the Microservice architecture still best architecture to follow. It's scalability and ability to break the system down into smaller services would allow it to handle more users and process data faster. We can add more services with ease if the grant requirements changed or if Serve Central decides to implement more services down the road. 
+
+However, the bigger the app and the more you scale it down, the more complex it becomes. Using Microservice runs the risk of getting lost in streams of data and connections. 
 
 # Extra Credit
-If you opt to do extra credit, then include it here.
+For step 2.1, clarification on how to list within a table would benefit students. Below is sample instructions
+
+*To list within the table, type the following:*
+```
+ol> <li> text </li><li> text </li> <li> text <ul
+```
+If done correctly, you should get an output like this:
+<ol> <li> text </li><li> text </li> <li> text <ul
