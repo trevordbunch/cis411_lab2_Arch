@@ -1,10 +1,10 @@
-# Lab Report: Continuous Integration
+# Lab Report: Architecture
 ___
 **Course:** CIS 411, Spring 2023  
 **Instructor(s):** [Trevor Bunch](https://github.com/trevordbunch)  
 **Name:** Michael Shoul  
 **GitHub Handle:** [m-shoul](https://github.com/m-shoul)  
-**Repository:** [m-shoul / cis411_lab1_arch](https://github.com/m-shoul/cis411_lab2_arch) 
+**Repository:** [m-shoul / cis411_lab2_arch](https://github.com/m-shoul/cis411_lab2_arch) 
 ___
 
 # Step 1: Confirm Lab Setup
@@ -35,31 +35,42 @@ Serve central empowers individuals to effortlessly discover new and impactful vo
 
 | Use Case #3 | |
 |---|---|
-| Title | Posting An Event - Service Agency |
-| Description / Steps | 1. The user representing the service agency navigates to the Serve Central website and clicks ```Login```. <br>2. The user navigates to the ```Create Event``` section. <br>3. The user fills out the event details form, including the event name, date, location, description, volunteer roles, and number of volunteers needed. <br>4. The user uploads ant relevant images or flyers for the event. <br>5. The user makes sure the information is correct and submits the event listing for review. <br>6. Upon approval, the event is posted on the Service Central platform and visible to volunteers. |
-| Primary Actor | Service Agency |
-| Preconditions | 1. The service agency has an activated account. <br>2. The user must be successfully logged into Serve Central. |
-| Postconditions | 1. The service agency has an event posted for potential volunteers. <br>2. The service agency receives an email confirmation for the event listing. |
+| Title | Posting An Event - Organization |
+| Description / Steps | 1. The user representing the organization navigates to the Serve Central website and clicks ```Login```. <br>2. The user navigates to the ```Create Event``` section. <br>3. The user fills out the event details form, including the event name, date, location, description, volunteer roles, and number of volunteers needed. <br>4. The user uploads ant relevant images or flyers for the event. <br>5. The user makes sure the information is correct and submits the event listing for review. <br>6. Upon approval, the event is posted on the Service Central platform and visible to volunteers. |
+| Primary Actor | Organization |
+| Preconditions | 1. The organization has an activated account. <br>2. The user must be successfully logged into Serve Central. |
+| Postconditions | 1. The organization has an event posted for potential volunteers. <br>2. The organization receives an email confirmation for the event listing. |
 
 ## Step 2.2 Define the MVC Components
 
 | Model | View | Controller |
 |---|---|---|
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
+| Volunteer | Volunteer Profile | registerVolunteer |
+| Event | Event Listings | registerEvent |
+| Organization | Event Details | showEventInfo |
+| Registration | Organization Profile | registerOrganization |
 
 ## Step 2.3 Diagram a Use Case in Architectural Terms
 INSERT IMAGE HERE with a Description.
 
+
+
 # Step 3: Enhancing an Architecture
 
 ## Step 3.1 Architecture Change Proposal
-INSERT Architectural change proposal here, and how it meets the two new requirements.  Explain both the benefits and draw backs of your proposal.
+Given the tremendous growth of Serve Central and the new requirements they must meet, it would be most appropriate to implement a microservices architecture pattern.
+
+The microservices architecture pattern breaks down a complex system into smaller, independent services that communicate with each other through APIs. This pattern is well suited for the integration of third-party services, as it allows for easy integration of external services with the Serve Central model/datastore.
+
+In this architecture, each third-party service could be treated as a separate microservice, responsible for inputting an retrieving data from the Serve Central model/model/datastore. This would allow for easy integration and management of third-party services, as well as flexible scaling and deployment. Also, the microservices architectural pattern is best for building organization-specific interfaces on top of the Serve Central business and data logic. This architecture allows for the development of separate microservices for each organization specific interface, so each organization can have a custom experience that meets its needs.
+
+Although the implementation of a microservices architecture seems like it may solve all problems, there is still a potential drawback. The increased number of separate microservices also increases the complexity and coordination required to manage them. This issue would require communication between microservices to be well defined and managed through APIs. Additionally, debugging and troubleshooting issues may arise with the increased number of microservices.
+
 
 ## Step 3.2 Revised Architecture Diagram
 INSERT IMAGE HERE with a Description.
+
+
 
 # Step 4: Scaling an Architecture
 INSERT Architectural change proposal here, and how it meets the four new requirements.  Explain both the benefits and draw backs of your proposal.  If the changes are significant, then you need to explain why the changes are necessary versus a nice-to-have enhancement.
