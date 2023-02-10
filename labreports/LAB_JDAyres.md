@@ -9,12 +9,13 @@ ___
 ___
 
 # Step 1: Confirm Lab Setup
-- [ ] I have forked the repository and created my lab report
-- [ ] I have reviewed the [lecture / discsussion](../assets/04p1_SolutionArchitectures.pdf) on architecture patterns.
+- [x] I have forked the repository and created my lab report
+- [x] I have reviewed the [lecture / discsussion](../assets/04p1_SolutionArchitectures.pdf) on architecture patterns.
 - [ ] If I'm collaborating on this project, I have included their handles on the report and confirm that my report is informed, but not copied from my collaborators.
 
 # Step 2: Analyze the Proposal
-Serve Central ... ENTER A BASIC SYSTEM INTRODUCTION HERE (1-2 Sentences).
+
+Serve Central is a mobile app that will help connect people who wish to volunteer at local service events in their area. The goal of this app is to create an easy and convenient method to find, create, and sign up for service events.
 
 ## Step 2.1 Representative Use Cases  
 
