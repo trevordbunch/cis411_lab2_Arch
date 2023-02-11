@@ -55,7 +55,8 @@ The above image shows how a User wanting to register for an event would look lik
 I would try to use the Broker architecture. This archiecture meets the two new requirements because it declutters all the services through a communication broker. Thirdparty services to input and retrieve data from our datastore, and the building of organization-specific interfaces would be brokered so that they don't run the risk of interfering with each other and the main ServeCentral database. This will make service distrubion transparent to the clients and supports dynamic editing of entities. However this architecture runs the risk of adding two many factors to keep control of, and may be complex to handle. 
 
 ## Step 3.2 Revised Architecture Diagram
-INSERT IMAGE HERE with a Description.
+![BrokerArch](https://docs.google.com/drawings/d/e/2PACX-1vTgiPmi06HUbErHzwXKlLDvPL0hFZ3tvg6cZwkneD1jH1JUfPDqzjoPM4EISkfCvvMhRp28_1jpKKN-/pub?w=480&h=360 "Broker Architecture")
+This image shows how broker allocates data to each service without the services being entangled with each other.
 
 # Step 4: Scaling an Architecture
 INSERT Architectural change proposal here, and how it meets the four new requirements.  Explain both the benefits and draw backs of your proposal.  If the changes are significant, then you need to explain why the changes are necessary versus a nice-to-have enhancement.
