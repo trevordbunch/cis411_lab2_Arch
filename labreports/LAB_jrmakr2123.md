@@ -43,30 +43,52 @@ Serve Central is a volunteering signup hub. By using Serve Central, the user can
 
 ## Step 2.2 Define the MVC Components
 
-| Model              | View                       | Controller                                                                           |
-| ------------------ | -------------------------- | ------------------------------------------------------------------------------------ |
-| Users Registered   | Visual string containing   | Upon registartion, add one more user to the registration count for a specific event. |
-| Event Details      | Visual Event Display Page  | Upon event creation or event update, modify the changed data values.                 |
-| Client Information | Visual Client Display Page | Upon client data creation or update, modify the changed data values.                 |
-| User Infromation   | Visual User Display Page   | Upon user data creation or update, modify the changed data values.                  |
+| Model              | View                       |   Controller         |
+| ------------------ | -------------------------- | -------------------- |
+| Users Registered   | Visual string containing   | Upon registration, add one more user to the registration count for a specific event.                                              |
+| Event Details      | Visual Event Display Page  | Upon event creation or event update, modify the changed data values.                                                                  |
+| Client Information | Visual Client Display Page | Upon client data creation or update, modify the changed data values.                                                                  |
+| User Information   | Visual User Display Page   | Upon user data creation or update, modify the changed data values.                                                                  |
 
 ## Step 2.3 Diagram a Use Case in Architectural Terms
 
-![User Registration, Use Case #1](../assets/User%20Registration%20Form%20Dia.pdf)
-
+![User Registration, Use Case #1](../assets/User%20Registration%20Form%20Dia.jpg)
+This diagram shows a simplified edition of Use Case #1. The user sees the homepage, makes the request to register to change the page, and then the information is collected and displayed. This process continues until the user completely registers for the event they are interested in. 
 # Step 3: Enhancing an Architecture
 
 ## Step 3.1 Architecture Change Proposal
 
-INSERT Architectural change proposal here, and how it meets the two new requirements.  Explain both the benefits and draw backs of your proposal.
+The architecture of Serve Central, to accompany the new changes to the overall structure, would need to change. I am proposing a change to the Broker architecture. Where before, the users, clients, and possible apis would need to go to the website, view the information directly, and supply commands to change the outcome of the request, the broker architecture provides a complex central structure for different uses. If a user is interfacing with Serve Central's website, the only information they generally need to know is the event data. The clients interfacing with Serve Central would need to know and change the event data and their client information. Now with the introduction of third party apis, the information needs to become more flexible and autonomous.
+
+The benefit of changing to a broker architecture.
+- Clients, third party apis, and users can access the information that is pertinent to their use case. 
+- All the information can still be stored in a central location. 
+- Information is better controlled for each individual use case such that apis get certain information rather than receiving and deciphering an entire web page. 
+- Broker architectures provide a better experience for larger use cases with more information and more requests. 
+
+The disadvantage of changing to a broker architecture.
+- Broker architectures are difficult to set up especially for projects concerning smaller issues. 
+- Broker architectures require careful tunning and configuration.
+- Apis need to be adjusted to suit a broker architecture (although that would have happened anyway).
 
 ## Step 3.2 Revised Architecture Diagram
 
-INSERT IMAGE HERE with a Description.
+![Broker architecture](../assets/broker%20architechture.jpg)
 
 # Step 4: Scaling an Architecture
 
-INSERT Architectural change proposal here, and how it meets the four new requirements.  Explain both the benefits and draw backs of your proposal.  If the changes are significant, then you need to explain why the changes are necessary versus a nice-to-have enhancement.
+For the new implementation supplied graciously by the Gates Foundation, I would implement the Microservice architecture. Since we are adding criteria to the the original Serve Central implementation, there are only a few architectures that are able to support the requirements. A microservice architecture has the benefit of the broker architecture wile also attaining the ability to scale rapidly. Furthermore, the microservice architecture can be expanded to support a large scale operation. For programs that are all over the world, the application architecture will be stored in multiple locations. Having a microservice architecture, this task is simple and makes the user, client, and third party's jobs easier. 
+
+Benefits to the microservice architecture.
+- Replaces the centralized framework for decentralized amoebous framework (this is mainly for tasks that are worldwide).
+- Makes the application capable of processing Terabytes of requests at a given time from anywhere on the globe (internet depending). 
+- It is easier to change a part or issue a fix if a problem is encountered with the application framework. 
+
+Disadvantages to the microservice architecture. 
+- The expanded nature of the application framework makes updating the whole application more difficult. 
+- A ton of data will need to be used.
+
+Overall, the benefits outweigh the disadvantage of the microservice architecture. Since the amount of storage the application will be dealing with is massive, the expansion of the application framework will need to be equally as large. By using the microservice architecture and spreading the bearing of the application over a larger scale, more information and ata can be moved efficiently.
 
 <!-- # Extra Credit
 
