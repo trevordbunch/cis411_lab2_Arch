@@ -45,7 +45,10 @@ Serve Central is a mobile app that will help connect people who wish to voluntee
 | Event Sign Up | Event Sign Up Form | viewEventSignUpController |
 
 ## Step 2.3 Diagram a Use Case in Architectural Terms
-INSERT IMAGE HERE with a Description.
+![UseCaseDiagram](../assets/ArchUseCase.drawio.png)
+
+**Description:**
+<br> Here you will see a sse case fo when a volunteer goes through the process of creating their account.
 
 # Step 3: Enhancing an Architecture
 
