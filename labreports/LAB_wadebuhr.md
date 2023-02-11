@@ -52,7 +52,7 @@ The above image shows how a User wanting to register for an event would look lik
 # Step 3: Enhancing an Architecture
 
 ## Step 3.1 Architecture Change Proposal
-INSERT Architectural change proposal here, and how it meets the two new requirements.  Explain both the benefits and draw backs of your proposal.
+I would try to use the Broker architecture. This archiecture meets the two new requirements because it declutters all the services through a communication broker. Thirdparty services to input and retrieve data from our datastore, and the building of organization-specific interfaces would be brokered so that they don't run the risk of interfering with each other and the main ServeCentral database. This will make service distrubion transparent to the clients and supports dynamic editing of entities. However this architecture runs the risk of adding two many factors to keep control of, and may be complex to handle. 
 
 ## Step 3.2 Revised Architecture Diagram
 INSERT IMAGE HERE with a Description.
