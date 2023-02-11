@@ -46,7 +46,8 @@ Serve Central is an app that attempts to solve the problems of serving. Serve Ce
 | Total Number of Available Events | Map of Events Near User | Update User Statistics Button |
 
 ## Step 2.3 Diagram a Use Case in Architectural Terms
-INSERT IMAGE HERE with a Description.
+![MVC](https://docs.google.com/drawings/d/e/2PACX-1vRBCAeBZ4gBYMuSR7qikOaVl_-QGxtfPe56JIhjVuoMHoGgBVndMZD5gP9c_X_de7henbcnK2jYAnlw/pub?w=480&h=360 "MVC Diagram")  
+The above image shows how a User wanting to register for an event would look like given a MVC architecture.
 
 # Step 3: Enhancing an Architecture
 
