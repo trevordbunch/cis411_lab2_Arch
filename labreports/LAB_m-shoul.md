@@ -4,13 +4,14 @@ ___
 **Instructor(s):** [Trevor Bunch](https://github.com/trevordbunch)  
 **Name:** Michael Shoul  
 **GitHub Handle:** [m-shoul](https://github.com/m-shoul)  
-**Repository:** [m-shoul / cis411_lab2_arch](https://github.com/m-shoul/cis411_lab2_arch) 
+**Repository:** [m-shoul / cis411_lab2_arch](https://github.com/m-shoul/cis411_lab2_arch)  
+**Collaborators:** None
 ___
 
 # Step 1: Confirm Lab Setup
 - [x] I have forked the repository and created my lab report
 - [x] I have reviewed the [lecture / discsussion](../assets/04p1_SolutionArchitectures.pdf) on architecture patterns.
-- [ ] If I'm collaborating on this project, I have included their handles on the report and confirm that my report is informed, but not copied from my collaborators.
+- [x] If I'm collaborating on this project, I have included their handles on the report and confirm that my report is informed, but not copied from my collaborators.
 
 # Step 2: Analyze the Proposal
 Serve central empowers individuals to effortlessly discover new and impactful volunteer opportunities while providing in-depth company and event information, all in one convenient location. With just a single application, users can effortlessly register and take the first step toward making a difference within the community.
@@ -51,8 +52,10 @@ Serve central empowers individuals to effortlessly discover new and impactful vo
 | Registration | Organization Profile | registerOrganization |
 
 ## Step 2.3 Diagram a Use Case in Architectural Terms
-INSERT IMAGE HERE with a Description.
 
+* This is a diagram of use case #1, which provides a visual representation of the how the MVC architecture handles a volunteer registering for an account.
+
+![Use Case Architecture](../assets/UseCaseMVC.svg)
 
 
 # Step 3: Enhancing an Architecture
@@ -62,18 +65,31 @@ Given the tremendous growth of Serve Central and the new requirements they must 
 
 The microservices architecture pattern breaks down a complex system into smaller, independent services that communicate with each other through APIs. This pattern is well suited for the integration of third-party services, as it allows for easy integration of external services with the Serve Central model/datastore.
 
-In this architecture, each third-party service could be treated as a separate microservice, responsible for inputting an retrieving data from the Serve Central model/model/datastore. This would allow for easy integration and management of third-party services, as well as flexible scaling and deployment. Also, the microservices architectural pattern is best for building organization-specific interfaces on top of the Serve Central business and data logic. This architecture allows for the development of separate microservices for each organization specific interface, so each organization can have a custom experience that meets its needs.
+In this architecture, each third-party service could be treated as a separate microservice, responsible for inputting an retrieving data from the Serve Central model/datastore. This would allow for easy integration and management of third-party services, as well as flexible scaling and deployment. Also, the microservices architectural pattern is best for building organization-specific interfaces on top of the Serve Central business and data logic. This architecture allows for the development of separate microservices for each organization specific interface, so each organization can have a custom experience that meets its needs.
 
 Although the implementation of a microservices architecture seems like it may solve all problems, there is still a potential drawback. The increased number of separate microservices also increases the complexity and coordination required to manage them. This issue would require communication between microservices to be well defined and managed through APIs. Additionally, debugging and troubleshooting issues may arise with the increased number of microservices.
 
 
 ## Step 3.2 Revised Architecture Diagram
-INSERT IMAGE HERE with a Description.
 
+* This is the newly proposed microservice architectural pattern that supports the two new requirements for Serve Central.
+
+![Architecture Diagram](../assets/SCArchitecture.svg)
 
 
 # Step 4: Scaling an Architecture
 INSERT Architectural change proposal here, and how it meets the four new requirements.  Explain both the benefits and draw backs of your proposal.  If the changes are significant, then you need to explain why the changes are necessary versus a nice-to-have enhancement.
 
-# Extra Credit
-If you opt to do extra credit, then include it here.
+Given the new requirements from the profound growth of Serve Central, I still believe that a microservice architecture would be the most appropriate. This approach would still allow Serve Central to accommodate growth, handle high volumes of data, and support the need of authorized parties to issue queries and analyze data.
+
+To handle the bursts of 10k+ new volunteers per hour, a volunteer opportunity microservice can be designed to handle a high volume of data and ensure that the submission of a new volunteer opportunity and its availability in the registration service are processed with low latency.
+
+The data management microservice can use a database that is designed to scale horizontally to handle the large amount of data. It is also important that the data is highly-available as well.
+
+Highly-available data is important because authorized parties should be able to issue queries that traverse through the TB's of data stored in the datastore. A data warehousing solution in the microservices architecture can be used to process and analyze the large amounts of data.
+
+The data warehousing solution can also be used to support data analysis for researchers to examine patterns of volunteer opportunities. The data can be analyzed through machine learning algorithms, statistical models, and visualization tools to determine future grant investments.
+
+However, scaling the microservices architecture can also present some drawbacks. Overall, the architecture becomes more complex and presents more difficult challenges with testing, deployment, monitoring, and security. As well as with the increased amounts of data, it may be challenging to ensure the data across multiple services is consistent.
+
+Although this may be a lot to digest, it is important to be able to implement changes to be able to handle the increased load and be able to maintain the system so that it available and accessible to all users at all times.
