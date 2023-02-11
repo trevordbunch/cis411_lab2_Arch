@@ -1,4 +1,4 @@
-# Lab Report: Architecture
+# Lab Report: Architecture Selection
 ___
 **Course:** CIS 411, Spring 2023  
 **Instructor(s):** [Trevor Bunch](https://github.com/trevordbunch)  
