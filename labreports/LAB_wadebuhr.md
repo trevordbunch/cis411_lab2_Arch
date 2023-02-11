@@ -40,10 +40,10 @@ Serve Central is an app that attempts to solve the problems of serving. Serve Ce
 
 | Model | View | Controller |
 |---|---|---|
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
+| Number of Volunteers at an Event | Service Event Page | User Registration Button |
+| How Far Away is an Event | User Statistics Page | Event Registration Button |
+| Total Hours Volunteered | User Registration Confirmation | View Even Information Button |
+| Total Number of Available Events | Map of Events Near User | Update User Statistics Button |
 
 ## Step 2.3 Diagram a Use Case in Architectural Terms
 INSERT IMAGE HERE with a Description.
