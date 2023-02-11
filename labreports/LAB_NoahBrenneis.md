@@ -46,7 +46,7 @@ Serve Central is a mobile application designed to make it easier for users to fi
 | Map Data | Search for Event | Search Events |
 
 ## Step 2.3 Diagram a Use Case in Architectural Terms
-INSERT IMAGE HERE with a Description.
+![Actor to MVC diagram](../assets/ServeCentral_Actor_to_MVC.svg)
 
 # Step 3: Enhancing an Architecture
 
