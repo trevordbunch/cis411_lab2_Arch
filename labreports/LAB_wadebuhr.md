@@ -9,12 +9,12 @@ ___
 ___
 
 # Step 1: Confirm Lab Setup
-- [ ] I have forked the repository and created my lab report
-- [ ] I have reviewed the [lecture / discsussion](../assets/04p1_SolutionArchitectures.pdf) on architecture patterns.
-- [ ] If I'm collaborating on this project, I have included their handles on the report and confirm that my report is informed, but not copied from my collaborators.
+- [ X] I have forked the repository and created my lab report
+- [ X] I have reviewed the [lecture / discsussion](../assets/04p1_SolutionArchitectures.pdf) on architecture patterns.
+- [ X] If I'm collaborating on this project, I have included their handles on the report and confirm that my report is informed, but not copied from my collaborators.
 
 # Step 2: Analyze the Proposal
-Serve Central ... ENTER A BASIC SYSTEM INTRODUCTION HERE (1-2 Sentences).
+Serve Central is an app that attempts to solve the problems of serving. Serve Central's solution is for all registration to be in one app with all the event and company information as well. 
 
 ## Step 2.1 Representative Use Cases  
 
