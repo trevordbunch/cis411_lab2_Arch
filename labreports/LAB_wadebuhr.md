@@ -59,8 +59,6 @@ I would try to use the Broker architecture. This archiecture meets the two new r
 This image shows how broker allocates data to each service without the services being entangled with each other.
 
 # Step 4: Scaling an Architecture
-INSERT Architectural change proposal here, and how it meets the four new requirements.  Explain both the benefits and draw backs of your proposal.  If the changes are significant, then you need to explain why the changes are necessary versus a nice-to-have enhancement.
+
 The Architectural pattern that I would employ with all these new needs would be microservice. This is now a big enough company with well defined boundries that we should incorporate a number of different tiny programs instead of buidling one big one for every new feature we want to add such as supporting a volunteer and event data store that will exceed 50TB of data. Some downsides that this may cause is the confusion of uses as parts of the app appear later than others, and the communication costs can be significant due to how spread apart the tasks are. But since this is a rapidly developing company, we need this sort of Architecture. These new changes are needed because technology is advancing and our company needs to advance with it, but mainly since we are gaining a ton of new users, we need are going to need more data space, and enhancements that will keep the users happy and coming back. 
 
-# Extra Credit
-If you opt to do extra credit, then include it here.
