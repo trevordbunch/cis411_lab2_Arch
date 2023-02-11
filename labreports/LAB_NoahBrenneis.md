@@ -72,4 +72,6 @@ In order to accomodate for the fourth requirement, an additional controller woul
 The implementation of this upgrade would allow for the expansion of ServeCentral that would be necessary for it to be usable worldwide. The division of storage across the world would make it easier to store and process all the neccessary information, in addition to being easily expandable once put into place. However, such an endeavor would be costly, and it would become much more difficult to manage every data store from one place. Besides the costs of implementation, there would also be expenses for hiring individuals to perform upkeep on each server. Despite this cost, the worldwide implementation of ServeCentral would greatly pay for itself, leading to easily accessible volunteer opportunities for all.
 
 # Extra Credit
-If you opt to do extra credit, then include it here.
+![Scaled-Up Architecture](../assets/ServeCentral_Scaled_Architecture.svg)
+
+A good way to improve this assignment would be to have us explore dealing with potential threats or damages to the scaled-up architecture. Whenever a project goes global, it becomes accessible to anyone, including those who have ill intentions. As such, it would be interesting to think about what we would do if we wanted to protect this architecture from hackers and other miscreants.
