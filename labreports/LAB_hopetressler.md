@@ -62,6 +62,7 @@ The microservices architectural pattern would work well for Serve Central. Micro
 
 **Description**
 
+This is a diagram that features the microservices architecture. It includes a load balancer and meets the needs for a solution to two problems for Serve Central: (1) third-party services and (2) building organization.
 
 # Step 4: Scaling an Architecture
 
