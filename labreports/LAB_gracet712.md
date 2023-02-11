@@ -54,7 +54,6 @@ The above diagram shows the interaction between an actor (volunteer) and the mod
 # Step 3: Enhancing an Architecture
 
 ## Step 3.1 Architecture Change Proposal
-INSERT Architectural change proposal here, and how it meets the two new requirements.  Explain both the benefits and draw backs of your proposal.
 
 One architectural pattern that would help meet these two new requirements is the load balancing architecture model. This supports the first new requirement by providing a way to support a large number of users, as third-party services input and retrieve large volumes of data and many more volunteers begin using the service. The second requirement can be supported by designing the load balancing architecture model in such a way that the web interface can be embedded in another website and still securely send user input back to Serve Center's servers. A drawback is the expensive infrastructure required to maintain a load balancing model and the complex requirements to make sure the main/helper databases and replicated web servers are always synced.
 
