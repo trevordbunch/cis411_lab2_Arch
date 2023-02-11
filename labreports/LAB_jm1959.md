@@ -22,39 +22,43 @@ All the registration and all event and company information should be in one loca
 
 | Use Case #1 |Find an event - Volunteer|
 |---|---|
-| Title |As a potential Serve Central user, I want to search for a certain event|
-| Description / Steps | |
-| Primary Actor |Volunteer|
-| Preconditions |1. The user has an account associated with their email|
-| Postconditions |1. The events are filtered based off of the user's search request|
+| Title| As a potential Serve Central user, I want to search for a certain event|
+| Description / Steps| 1. The user navigates to the events page <br> 2. User can click on the search bar and enter the name of a certain event <br> 3.The correct event is displayed after the user clicks the search button|                                                                                                    
+| Primary Actor| Volunteer|
+| Preconditions| 1. The user has an account associated with their email|
+| Postconditions| 1. The events are filtered based off of the user's search request|
 
 | Use Case #2 |One company/organization event hosted on app - Service Agencies|
 |---|---|
-| Title | |
-| Description / Steps | |
-| Primary Actor | |
+| Title |As a Service Agency, I want to make sure that companies/organizations can  |
+| Description / Steps |1. The company/organization navigates to the events page and clicks ```add event``` <br> 2. The company/organization fills out a add event form (company/organization name, event type, location, max number of attendees) <br> 3. The form will validate that each condition is filled out <br> 4. After conformation the company/organization is redirected to the events page and an email confirmation that the event was posted |
+| Primary Actor |company/organization |
 | Preconditions |1. Company/organization has an account associated with their email |
-| Postconditions | |
+| Postconditions |1. Event is displayed so that is viewable by the users  2. The event and details are stored correctly in the database |
 
 ## Step 2.2 Define the MVC Components
 
-| Model | View | Controller |
-|---|---|---|
-|  |Account page|  |
-|  |Event page  |  |
-|  |  |  |
-|  |  |  |
+| Model                 | View                 | Controller              |
+|-----------------------|----------------------|-------------------------|
+|Users                  |Account page          |Show location from event |
+|Companies/Organizations|Event page            |register for event       |
+|Events                 |Map page              |Show Event types         |
+|                       |Sign in/Sign up page  |Create/edit profile      |
+|                       |Create/edit event page|Create/edit event        |
+
 
 ## Step 2.3 Diagram a Use Case in Architectural Terms
-INSERT IMAGE HERE with a Description.
+![Architectural_use_case](../assets/Architectural_use_case.svg)
 
 # Step 3: Enhancing an Architecture
 
 ## Step 3.1 Architecture Change Proposal
-INSERT Architectural change proposal here, and how it meets the two new requirements.  Explain both the benefits and draw backs of your proposal.
+The architectural pattern that is appropriate to meet all requirements is Broker. This architectural pattern separates services and components though the use of a communication broker. The benefits of using this architecture is that it makes the service distribution transparent to clients. So for third party services there is no worry about losing data or affecting another party as each party would have their own server. The broker will receive their request and route the request to the right server. This would also help with building organization-specific interfaces on top of the Serve central business and data as all organizations would get their own server. One drawback of this architectural pattern is that it may introduce overhead. Since there are many different servers that the broker will be routing to there can be an excess of computation time,and bandwidth that will slow down the overall time it takes to process requests 
 
 ## Step 3.2 Revised Architecture Diagram
 INSERT IMAGE HERE with a Description.
+![Revised_architecture_diagram](../assets/Broker.svg)
+
 
 # Step 4: Scaling an Architecture
-INSERT Architectural change proposal here, and how it meets the four new requirements.  Explain both the benefits and draw backs of your proposal.  If the changes are significant, then you need to explain why the changes are necessary versus a nice-to-have enhancement.
+With the continuos growth of Serve Central it might be vital to switch the microservice architectural pattern.
