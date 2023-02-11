@@ -50,13 +50,21 @@ INSERT IMAGE HERE with a Description.
 # Step 3: Enhancing an Architecture
 
 ## Step 3.1 Architecture Change Proposal
-INSERT Architectural change proposal here, and how it meets the two new requirements.  Explain both the benefits and draw backs of your proposal.
+An architectural pattern that would work well with ServeCentral's mission would be a microservice architectural pattern. This is because this architectural form works well with simple application programming interfaces (APIs) as well as web based applications. Since ServeCentral would like to potentially embed their application within things like churches websites, this architecture will support that ideal. In addition this architecture allows for quick and easy deployments, so adapting to things like browser updates is easier. Additionally, microservice architecture is also very flexible in design, making the use of third party services easier to implement. Unfortunately there are still drawbacks to this architecture, the biggest for this case scenario is that the implementation of this architecture will require a lot of resources. So, sadly it is a fairly expensive solution.
 
 ## Step 3.2 Revised Architecture Diagram
-INSERT IMAGE HERE with a Description.
+![ArchitectureDiagram](../assets/Lab2Architechture.drawio.png)
+**Description:** <br> This is a microservice architecture diagram designed around ServeCentral that meets the two described problems needs, the two problems being, <br> 1. Thirdparty services to both input and retrieve data from the Serve Central model/datastore. <br> 2. Building organization-specific interfaces on top of the Serve Central business and data logic.
 
 # Step 4: Scaling an Architecture
-INSERT Architectural change proposal here, and how it meets the four new requirements.  Explain both the benefits and draw backs of your proposal.  If the changes are significant, then you need to explain why the changes are necessary versus a nice-to-have enhancement.
+I believe that the microservice architecture is still the ideal architecture to meet the desired needs of the Gates Foundations grant.
+
+This is because the microservice architecture is designed to be easily scalable which allows for adaptations to situations akin this.
+
+In terms of changes to the architectural design, I would make the following recommendations, 
+<br> 1. Include a load balancer within the API Gateway, this will help with the new increase in users.
+<br> 2. To address the new storage concerns, you can either acquire your own hardware, however that would require that you handle all of the maintenance. With the microservice architecture acquiring third party storage would be a easier and friendlier option. On this storage site, an application like MySQL should be running which will allow database queries. 
+<br> 3. I would add a new type of account, a researcher account, one that allows access to specific portions of the data servers, this would be used by the researchers examining volunteer opportunity patterns.
 
 # Extra Credit
 If you opt to do extra credit, then include it here.
