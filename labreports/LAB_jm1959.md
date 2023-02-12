@@ -13,8 +13,7 @@ ___
 - [x] I have reviewed the [lecture / discussion](../assets/04p1_SolutionArchitectures.pdf) on architecture patterns.
 - [x] If I'm collaborating on this project, I have included their handles on the report and confirm that my report is informed, but not copied from my collaborators.
 
-# Step 2: Analyze the Proposal
-Serve Central ... ENTER A BASIC SYSTEM INTRODUCTION HERE (1-2 Sentences).  
+# Step 2: Analyze the Proposal 
 Serve Central wants to create a web application that simplify the process of finding new volunteer opportunities.
 All the registration and all event and company information should be in one location, and user statistic tracking.
 
@@ -30,11 +29,11 @@ All the registration and all event and company information should be in one loca
 
 | Use Case #2 |One company/organization event hosted on app - Service Agencies|
 |---|---|
-| Title |As a Service Agency, I want to make sure that companies/organizations can  |
+| Title |As a Service Agency, I want to make sure that companies/organizations can host events and have users register for them |
 | Description / Steps |1. The company/organization his the ```login``` button 2. After being verified the company/organization navigates to the events page and clicks ```add event``` <br> 3. The company/organization fills out a add event form (company/organization name, event type, location, max number of attendees) <br> 4. The form will validate that each condition is filled out <br> 5. After conformation the company/organization is redirected to the events page and an email confirmation that the event was posted |
 | Primary Actor |company/organization |
 | Preconditions |1. Company/organization has an account associated with their email |
-| Postconditions |1. Event is displayed so that is viewable by the users <br> 2. The event and details are stored correctly in the database |
+| Postconditions |1. Event is displayed so that is viewable by the users <br> 2. The event allows users to register <br> 3. The event and details are stored correctly in the database |
 
 ## Step 2.2 Define the MVC Components
 
