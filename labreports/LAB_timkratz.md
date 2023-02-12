@@ -44,18 +44,25 @@ Serve Central is a mobile application that allows users to find events that are 
 |Event  |Event Registration  |EventRegistrationController  |
 
 ## Step 2.3 Diagram a Use Case in Architectural Terms
-INSERT IMAGE HERE with a Description.
+- Use case for volunteer account registration
+  
+![CircleCI Success](../assets/UseCase1.jpg)
 
 # Step 3: Enhancing an Architecture
 
 ## Step 3.1 Architecture Change Proposal
-INSERT Architectural change proposal here, and how it meets the two new requirements.  Explain both the benefits and draw backs of your proposal.
+If Service Central was to expand they should continue to use the MVC architecture. Change to architecture is something that can be costly and difficult to do. The MVC model already in place can be changed in order to meet their new requirements. A drawback of this could be that it is difficult to support multiple similar views that are on the same model. 
+
+
 
 ## Step 3.2 Revised Architecture Diagram
-INSERT IMAGE HERE with a Description.
+![CircleCI Success](../assets/Case2.jpg)
+
+- This is a use case with added third-party services and organizations specific interface. When a user wants to volunteer for an event, the model allows third-party services to both send and retrieve data and also allows for info from the model to be changed to an organization specific interface.
 
 # Step 4: Scaling an Architecture
-INSERT Architectural change proposal here, and how it meets the four new requirements.  Explain both the benefits and draw backs of your proposal.  If the changes are significant, then you need to explain why the changes are necessary versus a nice-to-have enhancement.
+I would implement load balancing. Load balancing is something that can be helpful to use with the increase of traffic. It is a way to improve overall performance, reliability, and scalablity. Load balancing distributes incoming requests across multiple servers or microservers. This is a way to ensure that the system is able to keep working and being responsive even under high traffic use. This would help with the bursts of 10k new volunteer opportunities per hour. Load balancing is something that allows distribution of the load. This would help to keep everything responsive and supporting volunteer and event data. Load balancing also allows for distribution of the load across queries which would be helpful for allowing authorized parties to issue queries that traverse the TB's of data stored in your datastore. The downside to implementing load balancing would be the cost of it. Also, it could lead to a signle point of error resulting in reduced availability. 
 
-# Extra Credit
-If you opt to do extra credit, then include it here.
+
+
+
