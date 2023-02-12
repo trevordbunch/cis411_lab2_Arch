@@ -51,12 +51,22 @@ volunteering opportunities in their area and track their history of volunteering
 
 ## Step 3.1 Architecture Change Proposal
 INSERT Architectural change proposal here, and how it meets the two new requirements.  Explain both the benefits and draw backs of your proposal.
+A microservice architecture would effectively meet these new requirements. 
+This would package the application into smaller services, including API systems that can be used by other companies to retrieve volunteering data. 
+These companies would be able to use only the microservices that they need, allowing them to incorporate aspects of the application into their own website. 
+A drawback of this architecture is that several interconnected individual services are more of a challenge to develop and test than one cohesive system.  
 
 ## Step 3.2 Revised Architecture Diagram
-INSERT IMAGE HERE with a Description.
+![Architecture Diagram](assets/ArchitectureDiagram.jpg)
 
 # Step 4: Scaling an Architecture
-INSERT Architectural change proposal here, and how it meets the four new requirements.  Explain both the benefits and draw backs of your proposal.  If the changes are significant, then you need to explain why the changes are necessary versus a nice-to-have enhancement.
+A microservice architecture would most likely still be a good option for the larger-scale project. Microservice architectures are particularly scalable, 
+being able to balance traffic between services. 
+In addition, if a new microservice was necessary, such as a pattern tracking service, the system could incorporate new services easily.
+More important than an architecture change would be a change in the amount of storage available for the databases.
+
+On the other hand, the increased scale of this project would further increase the difficulty of testing. 
+
 
 # Extra Credit
-If you opt to do extra credit, then include it here.
+Corrected a run-on sentence in the Lab Instructions. 
