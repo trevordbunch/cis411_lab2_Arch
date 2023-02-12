@@ -33,7 +33,7 @@ Consider the target audiences for Serve Central (volunteers and service agencies
 Dennis, Wixom and Roth (2014) have a full chapter (4) on writing use cases.  You are welcome to use an alternative format (there are plenty of alternative templates out there), but please ensure that you include the following elements: Title, Description / Steps, Primary Actor, Preconditions, & Postconditions.  A sample is included in the [assets folder](assets/UseCase_Sample.md).   
 
 ## Step 2.2 Define the MVC Components  
-Build a [table](https://www.tablesgenerator.com/markdown_tables) of at least **four models, views, and controllers** needed to produce this project based on the business requirements you do not need to research any technology solutions for this steps.  Here's a hint:  
+Build a [table](https://www.tablesgenerator.com/markdown_tables) of at least **four models, views, and controllers** needed to produce this project based on the business requirements. You do not need to research any technology solutions for this steps.  Here's a hint:  
 - Models typically reflect your data entities
 - Views typically mirror your pages or screens
 - Controllers govern system performed actions
