@@ -22,19 +22,51 @@ Serve Central ... ENTER A BASIC SYSTEM INTRODUCTION HERE.
 
 | Use Case #1 | |
 |---|---|
-| Title | |
-| Description / Steps | |
-| Primary Actor | |
-| Preconditions | |
-| Postconditions | |
+| Title | Serve Central within the high school student body. |
+
+| Description / Steps: 
+
+This use case describes how high school students can use Serve Central. 
+    1. Students create an account and allow the app to access their location in order to determine their school and where it is located.
+    2. Students will browse the various volunteer opportunites offered.
+    3. Students complete volunteer opportunites and log them within the app. 
+
+
+| Primary Actor | Students in high school |
+
+| Preconditions:
+
+1. Students should create an account and volunteer work must be authenticated.
+2. Students must list their interests and why they wish to volunteer.
+3. Activities must be school approved and bring a benefit to the community in some way.
+
+| Postconditions:
+
+1. Volunteer opportunites must be logged within 24 hours of completion.
+2. Teachers and faculty must aid in finding student opportunites in order to place them on the app.
 
 | Use Case #2 | |
 |---|---|
-| Title | |
-| Description / Steps | |
-| Primary Actor | |
-| Preconditions | |
-| Postconditions | |
+| Title | Serve Central within schools nationwide. |
+
+| Description / Steps: 
+
+This use case describes how schools nationwide can use Serve Central to benefit their communities.
+    1. Schools who wish to use Serve Central should create an account that students can branch off of.
+    2. Schools should create volunteer opportunites for their students and people around the community in order to do good.
+
+| Primary Actor | Schools |
+
+| Preconditions:
+
+1. Schools must put volunteer opportunities up weekly in order to keep users busy and continuing to benefit the community.
+2. Schools must create a maximum and minimum number of people for sign ups so opportunites do not get overcrowded.
+3. Schools can create the same volunteer opportunity numerous times on different days.
+4. Users must sign a terms of agreement before beginning volunteering to prevent harm to others and the school.
+
+| Postconditions:
+
+1. Volunteer opportunites must be approved within a 72 hour time span.
 
 ## Step 2.2 Define the MVC Components
 
