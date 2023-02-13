@@ -61,10 +61,17 @@ One advantage of using a broker architecture is that it allows for decoupled com
 One potential issue with using a broker architecture is that the broker component can become a bottleneck if it is not properly optimized, leading to decreased performance and scalability. Additionally, if the broker component fails, it can cause the entire system to fail, so it is important to have robust failover and redundancy mechanisms in place.
 
 ## Step 3.2 Revised Architecture Diagram
-INSERT IMAGE HERE with a Description.
+Broker architecture for ServeCentral
+![Broker arch](../assets/NewArchBroker.png)
 
 # Step 4: Scaling an Architecture
-INSERT Architectural change proposal here, and how it meets the four new requirements.  Explain both the benefits and draw backs of your proposal.  If the changes are significant, then you need to explain why the changes are necessary versus a nice-to-have enhancement.
+I think a microservices architecture would be best for the future needs of the grant. It would allow for the development of services for each requirement, keeping each service separated.
+
+For example, a service can be added to allow researchers to examine patterns of volunteer opportunities.
+
+I would also combine this with a load balancing architecture to meet the traffic requirement. This would be difficult to fulfill with just a microservices setup.
+
+The main drawback to this architecture is the time and cost required to implement it. The requirements are difficult to fulfill, and ensuring it works properly will take a lot of effort.
 
 # Extra Credit
 If you opt to do extra credit, then include it here.
