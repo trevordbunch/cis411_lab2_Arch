@@ -10,7 +10,7 @@ ___
 
 # Step 1: Confirm Lab Setup
 - [ ] I have forked the repository and created my lab report
-- [ ] I have reviewed the [lecture / discsussion](../assets/04p1_SolutionArchitectures.pdf) on architecture patterns.
+- [ ] I have reviewed the [lecture / discussion](../assets/04p1_SolutionArchitectures.pdf) on architecture patterns.
 - [ ] If I'm collaborating on this project, I have included their handles on the report and confirm that my report is informed, but not copied from my collaborators.
 
 # Step 2: Analyze the Proposal
