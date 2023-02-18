@@ -45,18 +45,40 @@ Serve Central is an application that helps volunteers find events to help with.
 | Upcoming Events by distance | Map | sortAndDisplayEventsByDistance |
 
 ## Step 2.3 Diagram a Use Case in Architectural Terms
-INSERT IMAGE HERE with a Description.
+![diagram](../assets/MVC%20diagram.svg)
 
 # Step 3: Enhancing an Architecture
 
 ## Step 3.1 Architecture Change Proposal
-INSERT Architectural change proposal here, and how it meets the two new requirements.  Explain both the benefits and draw backs of your proposal.
+Based on the requirements, a suitable architecture for Serve Central would be a broker architecture. A broker architecture is a design pattern in software engineering that uses an intermediary component (a broker) to handle communication and coordination between different components or services within an application. In the context of ServeCentral, a broker architecture could be used to manage the flow of data and requests between the volunteers and the local events they wish to participate in.
+
+Benefits:
+
+1. Scalability: A broker architecture allows for easy scaling of the application. As the number of users (volunteers and events) grows, the broker can manage the increased traffic and distribute requests among different components, ensuring smooth and efficient communication.
+
+1. Modularity: The use of a broker allows for greater modularity of the application. Different components can be developed independently and integrated with the broker, without having to worry about how they will communicate with other components.
+
+1. Flexibility: The broker can be easily replaced or upgraded without affecting the rest of the application. This allows for greater flexibility in the development and maintenance of the app.   
+
+Drawbacks:  
+
+1. Complexity: The use of a broker adds a layer of complexity to the application, which may make it harder to understand, develop, and debug.
+
+1. Single point of failure: The broker is a single point of failure in the system. If the broker fails, the entire application could be affected.
+
 
 ## Step 3.2 Revised Architecture Diagram
-INSERT IMAGE HERE with a Description.
+![diagram](../assets/arc%20diagram.svg)
 
 # Step 4: Scaling an Architecture
-INSERT Architectural change proposal here, and how it meets the four new requirements.  Explain both the benefits and draw backs of your proposal.  If the changes are significant, then you need to explain why the changes are necessary versus a nice-to-have enhancement.
+In the context of a large-scale version of ServeCentral, a microservice architecture can provide several benefits:
 
-# Extra Credit
-If you opt to do extra credit, then include it here.
+1. Scalability: One of the primary benefits of a microservice architecture is its ability to scale independently. Each microservice can be scaled up or down based on its specific workload, allowing the application to handle a large number of users without overloading any particular component.
+
+2. Flexibility: In a microservice architecture, each service is designed to perform a specific function, making it easier to develop, test, and deploy new features.
+
+3. Resilience: Since each microservice is self-contained, a failure in one service does not necessarily affect the entire application.
+
+4. Agility: With a microservice architecture, the application can be updated and deployed more quickly and efficiently. Each service can be updated separately, without affecting the entire application, allowing for faster iteration and deployment cycles.
+
+Overall, a microservice architecture can help ServeCentral handle a large number of users while maintaining flexibility, resilience, and agility. However, it is important to note that implementing a microservice architecture can be complex, and requires careful planning and design to ensure that services are well-defined and communicate effectively with each other.
