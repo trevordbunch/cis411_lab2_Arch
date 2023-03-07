@@ -59,7 +59,9 @@ Serve Central's system proposes to record the information and processes needed f
 
 ## Step 3.1 Architecture Change Proposal
 
-<p> The use of packaging and a 3-tiered system may work. The retrevial of information with different application servers aids in organization-specific interface design in addition to any thirdparty service. That being said, combining different application servers to a main database would be taxing on network speed. Using elements of "packaging" to enable custimization, but without the complexity or time-consumption of custom building, known as the "workarounds", should allow organization-specifics as required even with thirdparty proxies but still use Serve Central's logic. Unfortunately, updates with the main server's code may end up impeding Thirdparty services and specific interfaces, possibly causing the datastorage to suffer though a local memory storage would aid in this. That being said, customization of specific applications and interfaces, as well as the ability for scaling to multiple parties would be beneficial.
+<p> The use of packaging and a 3-tiered system may work. The retrevial of information with different application servers aids in organization-specific interface design in addition to any thirdparty service. That being said, combining different application servers to a main database would be taxing on network speed. Using elements of "packaging" to enable custimization, but without the complexity or time-consumption of custom building, known as the "workarounds", should allow organization-specifics as required even with thirdparty proxies but still use Serve Central's logic. 
+</p>
+<p> Unfortunately, updates with the main server's code may end up impeding Thirdparty services and specific interfaces, possibly causing the datastorage to suffer though a local memory storage would aid in this. That being said, customization of specific applications and interfaces, as well as the ability for scaling to multiple parties would be beneficial.
 </p>
 
 ## Step 3.2 Revised Architecture Diagram
